@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ATICE Advanced Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-brand">
+        <h1>🛡️ ATICE Advanced</h1>
+        <span class="version">v2.0</span>
+      </div>
+      <div class="navbar-menu">
+        <button id="darkModeToggle" class="theme-toggle" title="Toggle dark mode">
+          🌙
+        </button>
+        <button id="logoutBtn" class="logout-btn">Logout</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <h3>Dashboard</h3>
+        <ul class="menu">
+          <li><a href="#overview" class="menu-item active" data-view="overview">📊 Overview</a></li>
+          <li><a href="#analysis" class="menu-item" data-view="analysis">🔍 Analysis</a></li>
+          <li><a href="#correlations" class="menu-item" data-view="correlations">🔗 Correlations</a></li>
+          <li><a href="#iocs" class="menu-item" data-view="iocs">📋 All IOCs</a></li>
+          <li><a href="#ingest" class="menu-item" data-view="ingest">➕ Ingest IOC</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>Management</h3>
+        <ul class="menu">
+          <li><a href="#reports" class="menu-item" data-view="reports">📄 Reports</a></li>
+          <li><a href="#users" class="menu-item" data-view="users">👥 Users</a></li>
+          <li><a href="#logs" class="menu-item" data-view="logs">📝 Activity Logs</a></li>
+          <li><a href="#settings" class="menu-item" data-view="settings">⚙️ Settings</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>Quick Status</h3>
+        <div class="stat-card">
+          <span class="stat-label">Total IOCs</span>
+          <span class="stat-value" id="statTotalIOCs">-</span>
+        </div>
+        <div class="stat-card critical">
+          <span class="stat-label">Critical</span>
+          <span class="stat-value" id="statCritical">-</span>
+        </div>
+        <div class="stat-card high">
+          <span class="stat-label">High</span>
+          <span class="stat-value" id="statHigh">-</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Avg Score</span>
+          <span class="stat-value" id="statAvgScore">-</span>
+        </div>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>Actions</h3>
+        <button id="refreshBtn" class="action-btn">🔄 Refresh</button>
+        <button id="exportBtn" class="action-btn">📥 Export PDF</button>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="content">
+      <!-- View: Overview -->
+      <div id="overview-view" class="view active">
+        <h2>Dashboard Overview</h2>
+        <div class="dashboard-grid">
+          <div class="card threat-card">
+            <h3>Threat Distribution</h3>
+            <canvas id="threatChart" height="250"></canvas>
+          </div>
+          <div class="card types-card">
+            <h3>IOC Types</h3>
+            <canvas id="typesChart" height="250"></canvas>
+          </div>
+          <div class="card sources-card">
+            <h3>Top Sources</h3>
+            <div id="sourcesList" class="sources-list"></div>
+          </div>
+          <div class="card analysis-card">
+            <h3>Latest Analysis</h3>
+            <div id="latestAnalysis" class="analysis-summary"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View: Analysis -->
+      <div id="analysis-view" class="view">
+        <h2>Threat Analysis</h2>
+        <button id="runAnalysisBtn" class="btn btn-primary">Run Analysis</button>
+        <div id="analysisResults" class="analysis-container"></div>
+      </div>
+
+      <!-- View: Correlations -->
+      <div id="correlations-view" class="view">
+        <h2>IOC Correlations</h2>
+        <div class="filter-group">
+          <label>
+            Threshold:
+            <input type="range" id="correlationThreshold" min="0" max="1" step="0.05" value="0.5" />
+            <span id="thresholdValue">0.5</span>
+          </label>
+          <button id="loadCorrelationsBtn" class="btn btn-primary">Load Correlations</button>
+        </div>
+        <div id="correlationsContainer">
+          <canvas id="correlationGraph" height="400"></canvas>
+          <div id="correlationStats" class="stats-grid"></div>
+        </div>
+      </div>
+
+      <!-- View: All IOCs -->
+      <div id="iocs-view" class="view">
+        <h2>All IOCs</h2>
+        <div class="filter-group">
+          <input type="text" id="searchInput" placeholder="Search IOCs..." />
+          <select id="typeFilter" title="Filter IOCs by type">
+            <option value="">All Types</option>
+            <option value="ip">IP</option>
+            <option value="domain">Domain</option>
+            <option value="url">URL</option>
+            <option value="hash">Hash</option>
+            <option value="cve">CVE</option>
+            <option value="email">Email</option>
+            <option value="file">File</option>
+          </select>
+          <select id="threatFilter" title="Filter IOCs by threat level">
+            <option value="">All Threats</option>
+            <option value="CRITICAL">Critical</option>
+            <option value="HIGH">High</option>
+            <option value="MEDIUM">Medium</option>
+            <option value="LOW">Low</option>
+          </select>
+        </div>
+        <div id="iocsList" class="iocs-table-container"></div>
+      </div>
+
+      <!-- View: Ingest IOC -->
+      <div id="ingest-view" class="view">
+        <h2>Ingest New IOC</h2>
+        <form id="ingestForm" class="form-group">
+          <div class="form-row">
+            <div class="form-field">
+              <label>Type *</label>
+              <select id="iocType" title="Select IOC type" required>
+                <option value="">Select Type</option>
+                <option value="ip">IP Address</option>
+                <option value="domain">Domain</option>
+                <option value="url">URL</option>
+                <option value="hash">Hash (MD5/SHA1/SHA256)</option>
+                <option value="cve">CVE ID</option>
+                <option value="email">Email</option>
+                <option value="file">File Name</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label>Value *</label>
+              <input type="text" id="iocValue" required placeholder="e.g., 192.168.1.1" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label>Source</label>
+              <input type="text" id="iocSource" placeholder="e.g., virustotal" />
+            </div>
+            <div class="form-field">
+              <label>Confidence (0-1)</label>
+              <input type="number" id="iocConfidence" min="0" max="1" step="0.1" value="0.5" placeholder="0.5" title="Confidence score between 0 and 1" />
+            </div>
+          </div>
+
+          <div class="form-row full">
+            <div class="form-field">
+              <label>Description</label>
+              <textarea id="iocDescription" placeholder="Add details about this IOC"></textarea>
+            </div>
+          </div>
+
+          <div class="button-group">
+            <button type="submit" class="btn btn-primary">Ingest IOC</button>
+            <button type="reset" class="btn btn-secondary">Clear</button>
+          </div>
+        </form>
+
+        <div id="ingestResult" class="result-box"></div>
+      </div>
+
+      <!-- View: Reports -->
+      <div id="reports-view" class="view">
+        <h2>Threat Reports</h2>
+        <div class="reports-actions">
+          <button id="generateReportBtn" class="btn btn-primary">📊 Generate Report</button>
+          <button id="exportReportBtn" class="btn btn-secondary">📥 Export PDF</button>
+        </div>
+        <div class="reports-container">
+          <div class="card">
+            <h3>Daily Threat Summary</h3>
+            <div id="dailySummary" class="report-content">
+              <p>Click "Generate Report" to create daily threat summary</p>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Top Threats</h3>
+            <div id="topThreats" class="report-content">
+              <ul id="threatsListReport"></ul>
+            </div>
+          </div>
+          <div class="card">
+            <h3>IOC Statistics</h3>
+            <div id="iocStats" class="report-content">
+              <div class="stats-grid" id="statsGrid"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View: Users -->
+      <div id="users-view" class="view">
+        <h2>User Management</h2>
+        <button id="addUserBtn" class="btn btn-primary">➕ Add User</button>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Username</th>
+              <th>Email</th>
+              <th>Role</th>
+              <th>Status</th>
+              <th>Last Login</th>
+              <!--<th>Actions</th>-->
+            </tr>
+          </thead>
+          <tbody id="usersTableBody">
+            <tr>
+              <td>admin</td>
+              <td>admin@atice.local</td>
+              <td><span class="badge badge-admin">Admin</span></td>
+              <td><span class="badge badge-active">Active</span></td>
+              <td>Today</td>
+              <!--<td><button class="btn btn-sm">Edit</button></td>-->
+            </tr>
+            <tr>
+              <td>analyst</td>
+              <td>analyst@atice.local</td>
+              <td><span class="badge badge-analyst">Analyst</span></td>
+              <td><span class="badge badge-active">Active</span></td>
+              <td>Yesterday</td>
+              <!--<td><button class="btn btn-sm">Edit</button></td>-->
+            </tr>
+            <tr>
+              <td>viewer</td>
+              <td>viewer@atice.local</td>
+              <td><span class="badge badge-viewer">Viewer</span></td>
+              <td><span class="badge badge-inactive">Inactive</span></td>
+              <td>3 days ago</td>
+              <!--<td><button class="btn btn-sm">Edit</button></td>-->
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- View: Activity Logs -->
+      <div id="logs-view" class="view">
+        <h2>Activity Logs</h2>
+        <div class="logs-filters">
+          <input type="text" id="logSearch" placeholder="Search logs..." />
+          <select id="logLevel" title="Filter logs by level">
+            <option value="">All Levels</option>
+            <option value="info">Info</option>
+            <option value="warning">Warning</option>
+            <option value="error">Error</option>
+            <option value="success">Success</option>
+          </select>
+          <button id="clearLogsBtn" class="btn btn-secondary">🗑️ Clear Logs</button>
+        </div>
+        <div class="logs-container">
+          <table class="logs-table">
+            <thead>
+              <tr>
+                <th>Timestamp</th>
+                <th>User</th>
+                <th>Action</th>
+                <th>Level</th>
+                <th>Details</th>
+              </tr>
+            </thead>
+            <tbody id="logsTableBody">
+              <tr>
+                <td>2025-01-10 14:32:15</td>
+                <td>admin</td>
+                <td>IOC Created</td>
+                <td><span class="log-level info">Info</span></td>
+                <td>Created new CVE IOC with score 85.5</td>
+              </tr>
+              <tr>
+                <td>2025-01-10 14:15:42</td>
+                <td>analyst</td>
+                <td>Report Generated</td>
+                <td><span class="log-level success">Success</span></td>
+                <td>Generated daily threat report</td>
+              </tr>
+              <tr>
+                <td>2025-01-10 13:58:20</td>
+                <td>admin</td>
+                <td>User Login</td>
+                <td><span class="log-level info">Info</span></td>
+                <td>Successful authentication</td>
+              </tr>
+              <tr>
+                <td>2025-01-10 13:45:10</td>
+                <td>viewer</td>
+                <td>Data Export</td>
+                <td><span class="log-level warning">Warning</span></td>
+                <td>Exported 150 IOCs to JSON</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- View: Settings -->
+      <div id="settings-view" class="view">
+        <h2>System Settings</h2>
+        <div class="settings-container">
+          <div class="settings-section">
+            <h3>General Settings</h3>
+            <div class="setting-item">
+              <label>System Name</label>
+              <input type="text" value="ATICE Advanced" class="setting-input" title="System name for the ATICE application" />
+            </div>
+            <div class="setting-item">
+              <label>API Endpoint</label>
+              <input type="text" value="http://localhost:8000" class="setting-input" title="API endpoint URL for the ATICE application" />
+            </div>
+            <div class="setting-item">
+              <label>Max IOCs per Page</label>
+              <input type="number" value="50" min="10" max="500" class="setting-input" title="Maximum number of IOCs displayed per page" />
+            </div>
+          </div>
+
+          <div class="settings-section">
+            <h3>Threat Scoring</h3>
+            <div class="setting-item">
+              <label>Critical Threshold</label>
+              <input type="number" value="90" min="0" max="100" class="setting-input" title="Critical threshold value (0-100)" />
+            </div>
+            <div class="setting-item">
+              <label>High Threshold</label>
+              <input type="number" value="70" min="0" max="100" class="setting-input" title="High threshold value (0-100)" />
+            </div>
+            <div class="setting-item">
+              <label>Medium Threshold</label>
+              <input type="number" value="50" min="0" max="100" class="setting-input" title="Medium threshold value (0-100)" />
+            </div>
+          </div>
+
+          <div class="settings-section">
+            <h3>Notification Settings</h3>
+            <div class="setting-item checkbox">
+              <input type="checkbox" id="emailNotif" checked />
+              <label for="emailNotif">Email Notifications for Critical IOCs</label>
+            </div>
+            <div class="setting-item checkbox">
+              <input type="checkbox" id="webhookNotif" checked />
+              <label for="webhookNotif">Webhook Notifications</label>
+            </div>
+            <div class="setting-item checkbox">
+              <input type="checkbox" id="slackNotif" />
+              <label for="slackNotif">Slack Integration</label>
+            </div>
+          </div>
+
+          <div class="settings-section">
+            <h3>Data Management</h3>
+            <button id="backupBtn" class="btn btn-secondary">💾 Backup Data</button>
+            <button id="restoreBtn" class="btn btn-secondary">📂 Restore Data</button>
+            <button id="purgeBtn" class="btn btn-danger">🗑️ Purge Old Data</button>
+          </div>
+
+          <button id="saveSettingsBtn" class="btn btn-primary">💾 Save Settings</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Modals -->
+  <div id="detailsModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>IOC Details</h2>
+      <div id="detailsContent"></div>
+    </div>
+  </div>
+
+  <div id="loginModal" class="modal active">
+    <div class="modal-content login-form">
+      <h2>🔐 ATICE Advanced Login</h2>
+      <form id="loginForm">
+        <div class="form-field">
+          <label>Username</label>
+          <input type="text" id="loginUsername" value="admin" placeholder="Enter your username" />
+        </div>
+        <div class="form-field">
+          <label>Password</label>
+          <input type="password" id="loginPassword" value="admin" placeholder="Enter your password" />
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Login</button>
+        <small class="login-demo-text">Demo: admin/admin</small>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="api.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>

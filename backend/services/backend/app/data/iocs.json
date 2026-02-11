@@ -1,0 +1,1351 @@
+[
+  {
+    "id": "1e0a6286-bd77-47ef-8686-ae3dc2cf7db3",
+    "type": "ip",
+    "value": "185.244.25.45",
+    "source": "virusTotal",
+    "description": "Known command-and-control server",
+    "confidence": 0.9,
+    "metadata": {
+      "detection_count": 42,
+      "seen_count": 15
+    },
+    "first_seen": "2025-12-01T10:15:30.000000Z",
+    "last_seen": "2025-12-03T06:26:07.745850Z",
+    "detections": 42,
+    "score": 85.5
+  },
+  {
+    "id": "2f1b7397-ce88-58fg-9797-bf4ed8dg8ec4",
+    "type": "ip",
+    "value": "192.168.1.100",
+    "source": "abuseipdb",
+    "description": "Ransomware botnet node",
+    "confidence": 0.85,
+    "metadata": {
+      "detection_count": 128,
+      "seen_count": 45,
+      "country": "RU"
+    },
+    "first_seen": "2025-11-28T14:22:15.000000Z",
+    "last_seen": "2025-12-03T08:45:22.000000Z",
+    "detections": 128,
+    "score": 92.3
+  },
+  {
+    "id": "3a2c8408-df99-69hi-0808-cg5fe9eh9fd5",
+    "type": "domain",
+    "value": "malicious-domain.xyz",
+    "source": "alienvault",
+    "description": "Phishing domain targeting financial institutions",
+    "confidence": 0.95,
+    "metadata": {
+      "detection_count": 87,
+      "seen_count": 30,
+      "registrar": "unknown"
+    },
+    "first_seen": "2025-11-25T09:10:45.000000Z",
+    "last_seen": "2025-12-03T07:30:10.000000Z",
+    "detections": 87,
+    "score": 88.7
+  },
+  {
+    "id": "4b3d9519-eg00-70ij-1919-dh6gf0fi0ge6",
+    "type": "hash",
+    "value": "d131dd02c5e6eec4693d61a8c97acb3755fd41c65046ca051e2038a7d4d8ff08",
+    "source": "virustotal",
+    "description": "Trojan.Win32.Emotet - banking malware",
+    "confidence": 1.0,
+    "metadata": {
+      "detection_count": 156,
+      "seen_count": 89,
+      "file_type": "PE32"
+    },
+    "first_seen": "2025-11-20T12:45:30.000000Z",
+    "last_seen": "2025-12-03T06:15:22.000000Z",
+    "detections": 156,
+    "score": 98.4
+  },
+  {
+    "id": "5c4ea62a-fh11-81jk-2020-ei7hg1gj1hf7",
+    "type": "url",
+    "value": "http://evil-website.com/payload",
+    "source": "internal",
+    "description": "Malware distribution endpoint",
+    "confidence": 0.88,
+    "metadata": {
+      "detection_count": 45,
+      "seen_count": 12
+    },
+    "first_seen": "2025-12-02T16:20:10.000000Z",
+    "last_seen": "2025-12-03T05:50:45.000000Z",
+    "detections": 45,
+    "score": 79.2
+  },
+  {
+    "id": "6d5fb73b-gi22-92kl-3131-fj8ih2hk2ig8",
+    "type": "email",
+    "value": "attacker@compromised.net",
+    "source": "manual",
+    "description": "Spear phishing email sender",
+    "confidence": 0.75,
+    "metadata": {
+      "detection_count": 23,
+      "seen_count": 8
+    },
+    "first_seen": "2025-11-30T08:15:00.000000Z",
+    "last_seen": "2025-12-03T04:30:20.000000Z",
+    "detections": 23,
+    "score": 62.5
+  },
+  {
+    "id": "7e6gc84c-hj33-03lm-4242-gk9ji3il3jh9",
+    "type": "cve",
+    "value": "CVE-2024-1234",
+    "source": "virustotal",
+    "description": "Critical remote code execution vulnerability - widely exploited",
+    "confidence": 0.99,
+    "metadata": {
+      "detection_count": 512,
+      "seen_count": 200,
+      "cvss_score": 9.8
+    },
+    "first_seen": "2025-01-15T00:00:00.000000Z",
+    "last_seen": "2025-12-03T09:00:00.000000Z",
+    "detections": 512,
+    "score": 95.8
+  },
+  {
+    "id": "8f7hd95d-ik44-14no-5353-hl0kj4jm4ki0",
+    "type": "ip",
+    "value": "203.0.113.42",
+    "source": "abuseipdb",
+    "description": "Suspicious SSH brute force activity",
+    "confidence": 0.68,
+    "metadata": {
+      "detection_count": 34,
+      "seen_count": 7,
+      "country": "CN"
+    },
+    "first_seen": "2025-12-01T03:45:15.000000Z",
+    "last_seen": "2025-12-03T06:20:30.000000Z",
+    "detections": 34,
+    "score": 52.1
+  },
+  {
+    "id": "9a8ie06e-jl55-25op-6464-im1lk5kn5lj1",
+    "type": "domain",
+    "value": "backdoor-panel.net",
+    "source": "internal",
+    "description": "Web shell command and control panel",
+    "confidence": 0.92,
+    "metadata": {
+      "detection_count": 67,
+      "seen_count": 22
+    },
+    "first_seen": "2025-11-22T11:30:45.000000Z",
+    "last_seen": "2025-12-03T08:10:15.000000Z",
+    "detections": 67,
+    "score": 84.3
+  },
+  {
+    "id": "0b9jf17f-km66-36pq-7575-jn2ml6lo6mk2",
+    "type": "file",
+    "value": "suspicious_executable.exe",
+    "source": "virustotal",
+    "description": "Worm.Win32.AutoRunner - self-propagating malware",
+    "confidence": 0.87,
+    "metadata": {
+      "detection_count": 89,
+      "seen_count": 34,
+      "size": "245KB"
+    },
+    "first_seen": "2025-11-18T19:55:20.000000Z",
+    "last_seen": "2025-12-03T07:45:00.000000Z",
+    "detections": 89,
+    "score": 81.6
+  },
+  {
+    "id": "1c0kg28g-ln77-47qr-8686-ko3nm7mp7nl3",
+    "type": "ip",
+    "value": "198.51.100.55",
+    "source": "manual",
+    "description": "Low priority suspicious IP",
+    "confidence": 0.35,
+    "metadata": {
+      "detection_count": 5,
+      "seen_count": 2
+    },
+    "first_seen": "2025-12-02T20:10:30.000000Z",
+    "last_seen": "2025-12-03T09:15:10.000000Z",
+    "detections": 5,
+    "score": 28.5
+  },
+  {
+    "id": "bfc2f351-8cef-48fc-9191-b0040c506991",
+    "type": "ip",
+    "value": "10.0.0.5",
+    "source": "batch_import",
+    "description": "Botnet command-and-control server, part of Mirai variant",
+    "confidence": 0.95,
+    "metadata": {
+      "detection_count": 156,
+      "seen_count": 89,
+      "country": "RU",
+      "asn": "AS12345",
+      "isp": "Unknown ISP"
+    },
+    "first_seen": "2025-12-03T06:53:38.670520Z",
+    "last_seen": "2025-12-03T07:40:35.864788Z",
+    "detections": 156,
+    "score": 100
+  },
+  {
+    "id": "f8d279ba-27b2-435d-b597-b9bbf5e47ae2",
+    "type": "ip",
+    "value": "172.16.0.50",
+    "source": "batch_import",
+    "description": "Ransomware distribution server",
+    "confidence": 0.92,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 112,
+      "country": "KP",
+      "attack_type": "ransomware"
+    },
+    "first_seen": "2025-12-03T06:53:38.670520Z",
+    "last_seen": "2025-12-03T07:40:35.874740Z",
+    "detections": 234,
+    "score": 100
+  },
+  {
+    "id": "509d049b-bc9c-4dc9-bf40-9e9ce790ce89",
+    "type": "domain",
+    "value": "malware-repo.online",
+    "source": "batch_import",
+    "description": "Malware hosting and distribution domain",
+    "confidence": 0.98,
+    "metadata": {
+      "detection_count": 412,
+      "seen_count": 178,
+      "registrar": "privacy-protected",
+      "created_date": "2024-01-15"
+    },
+    "first_seen": "2025-12-03T06:53:38.670520Z",
+    "last_seen": "2025-12-03T07:40:35.877689Z",
+    "detections": 412,
+    "score": 100
+  },
+  {
+    "id": "1141ae57-b740-4840-a36e-c6039498fa22",
+    "type": "domain",
+    "value": "phishing-bank.net",
+    "source": "batch_import",
+    "description": "Phishing page impersonating major financial institutions",
+    "confidence": 0.94,
+    "metadata": {
+      "detection_count": 287,
+      "seen_count": 145,
+      "target_industry": "finance"
+    },
+    "first_seen": "2025-12-03T06:53:38.670520Z",
+    "last_seen": "2025-12-03T07:40:35.879684Z",
+    "detections": 287,
+    "score": 100
+  },
+  {
+    "id": "405b2e1f-0ee7-47dc-ba2e-6fee73932537",
+    "type": "url",
+    "value": "http://malicious.site/exploit_kit",
+    "source": "batch_import",
+    "description": "Exploit kit delivery URL",
+    "confidence": 0.89,
+    "metadata": {
+      "detection_count": 156,
+      "seen_count": 67,
+      "exploit_type": "browser_exploit"
+    },
+    "first_seen": "2025-12-03T06:53:38.670520Z",
+    "last_seen": "2025-12-03T07:40:35.881555Z",
+    "detections": 156,
+    "score": 100
+  },
+  {
+    "id": "989ba391-25d3-4c29-a1fa-a3504cdb3b67",
+    "type": "url",
+    "value": "https://backdoor-panel.ru/admin",
+    "source": "batch_import",
+    "description": "Remote access trojan command center",
+    "confidence": 0.96,
+    "metadata": {
+      "detection_count": 334,
+      "seen_count": 123,
+      "rat_family": "Unknown"
+    },
+    "first_seen": "2025-12-03T06:53:38.670520Z",
+    "last_seen": "2025-12-03T07:40:35.882563Z",
+    "detections": 334,
+    "score": 100
+  },
+  {
+    "id": "b86aa791-7a71-4b98-978b-c1d3d979fd9f",
+    "type": "hash",
+    "value": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4",
+    "source": "batch_import",
+    "description": "Trojan.Win32.Emotet - banking malware",
+    "confidence": 1.0,
+    "metadata": {
+      "detection_count": 512,
+      "seen_count": 267,
+      "file_type": "PE32",
+      "file_size": "245KB",
+      "magic_bytes": "MZ"
+    },
+    "first_seen": "2025-12-03T06:53:38.670520Z",
+    "last_seen": "2025-12-03T07:40:35.883565Z",
+    "detections": 512,
+    "score": 100
+  },
+  {
+    "id": "860f298e-e8f6-44e5-bcb0-832becee4345",
+    "type": "hash",
+    "value": "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5",
+    "source": "batch_import",
+    "description": "Ransomware payload SHA256",
+    "confidence": 0.98,
+    "metadata": {
+      "detection_count": 445,
+      "seen_count": 189,
+      "file_type": "PE64",
+      "ransomware_family": "Conti"
+    },
+    "first_seen": "2025-12-03T06:53:38.670520Z",
+    "last_seen": "2025-12-03T07:40:35.884562Z",
+    "detections": 445,
+    "score": 100
+  },
+  {
+    "id": "ad364014-bff2-470c-8742-8a775c465af0",
+    "type": "email",
+    "value": "spam.sender@malicious.net",
+    "source": "batch_import",
+    "description": "Spam and phishing email sender",
+    "confidence": 0.87,
+    "metadata": {
+      "detection_count": 123,
+      "seen_count": 45,
+      "campaigns": 12
+    },
+    "first_seen": "2025-12-03T06:53:38.670520Z",
+    "last_seen": "2025-12-03T07:40:35.885562Z",
+    "detections": 123,
+    "score": 91.56
+  },
+  {
+    "id": "7e4d63d6-49e8-4682-a7aa-585312d866c7",
+    "type": "email",
+    "value": "botnet.controller@dark.onion",
+    "source": "batch_import",
+    "description": "Botnet command relay email",
+    "confidence": 0.92,
+    "metadata": {
+      "detection_count": 89,
+      "seen_count": 34,
+      "connected_domains": 5
+    },
+    "first_seen": "2025-12-03T06:53:38.670520Z",
+    "last_seen": "2025-12-03T07:40:35.886561Z",
+    "detections": 89,
+    "score": 100
+  },
+  {
+    "id": "12307377-aa76-4a33-a32f-4898e932ddf5",
+    "type": "cve",
+    "value": "CVE-2024-1001",
+    "source": "batch_import",
+    "description": "Critical remote code execution vulnerability in popular web framework",
+    "confidence": 0.99,
+    "metadata": {
+      "detection_count": 1024,
+      "seen_count": 512,
+      "cvss_score": 9.8,
+      "exploits_available": true,
+      "active_exploitation": true
+    },
+    "first_seen": "2025-12-03T06:53:40.719400Z",
+    "last_seen": "2025-12-03T07:40:37.914756Z",
+    "detections": 1024,
+    "score": 100
+  },
+  {
+    "id": "7c2c70ec-e070-4591-9170-9e195cd738ca",
+    "type": "cve",
+    "value": "CVE-2024-2002",
+    "source": "batch_import",
+    "description": "Privilege escalation vulnerability",
+    "confidence": 0.96,
+    "metadata": {
+      "detection_count": 567,
+      "seen_count": 289,
+      "cvss_score": 8.9,
+      "affected_versions": [
+        "1.0",
+        "1.1",
+        "1.2"
+      ]
+    },
+    "first_seen": "2025-12-03T06:53:40.719400Z",
+    "last_seen": "2025-12-03T07:40:37.925060Z",
+    "detections": 567,
+    "score": 100
+  },
+  {
+    "id": "9181cb2a-6d56-4629-939b-61e20ad45c4d",
+    "type": "file",
+    "value": "svchost_malware.exe",
+    "source": "batch_import",
+    "description": "Worm.Win32.AutoRunner - self-propagating malware",
+    "confidence": 0.93,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 112,
+      "file_size": "512KB",
+      "imports": [
+        "kernel32.dll",
+        "advapi32.dll"
+      ]
+    },
+    "first_seen": "2025-12-03T06:53:40.719400Z",
+    "last_seen": "2025-12-03T07:40:37.925060Z",
+    "detections": 234,
+    "score": 100
+  },
+  {
+    "id": "fb5eace7-90bf-49f4-9550-446e75d26c5a",
+    "type": "file",
+    "value": "document_exploit.pdf",
+    "source": "batch_import",
+    "description": "PDF with embedded JavaScript exploit",
+    "confidence": 0.88,
+    "metadata": {
+      "detection_count": 156,
+      "seen_count": 78,
+      "exploit_target": "Adobe Reader"
+    },
+    "first_seen": "2025-12-03T06:53:40.719400Z",
+    "last_seen": "2025-12-03T07:40:37.932091Z",
+    "detections": 156,
+    "score": 100
+  },
+  {
+    "id": "be5d86ab-7379-4ad4-9e9c-afa0055082d3",
+    "type": "ip",
+    "value": "203.0.113.10",
+    "source": "batch_import",
+    "description": "SSH brute force attacker",
+    "confidence": 0.76,
+    "metadata": {
+      "detection_count": 89,
+      "seen_count": 34,
+      "country": "CN",
+      "failed_attempts": 45000
+    },
+    "first_seen": "2025-12-03T06:53:40.719400Z",
+    "last_seen": "2025-12-03T07:40:37.934099Z",
+    "detections": 89,
+    "score": 81.88
+  },
+  {
+    "id": "34a195e3-2c4e-4568-b35a-4b51f3924e03",
+    "type": "ip",
+    "value": "198.51.100.20",
+    "source": "batch_import",
+    "description": "Suspicious data exfiltration endpoint",
+    "confidence": 0.68,
+    "metadata": {
+      "detection_count": 45,
+      "seen_count": 12,
+      "data_volume": "15GB",
+      "destination_country": "IR"
+    },
+    "first_seen": "2025-12-03T06:53:40.719400Z",
+    "last_seen": "2025-12-03T07:40:37.935102Z",
+    "detections": 45,
+    "score": 74.84
+  },
+  {
+    "id": "724dfdca-834a-4f92-8915-b283cad9c8f2",
+    "type": "domain",
+    "value": "data-exfil.xyz",
+    "source": "batch_import",
+    "description": "Data exfiltration command and control domain",
+    "confidence": 0.91,
+    "metadata": {
+      "detection_count": 267,
+      "seen_count": 98,
+      "data_types": [
+        "credentials",
+        "personal_data",
+        "source_code"
+      ]
+    },
+    "first_seen": "2025-12-03T06:53:40.719400Z",
+    "last_seen": "2025-12-03T07:40:37.936102Z",
+    "detections": 267,
+    "score": 90.53
+  },
+  {
+    "id": "b75d65a4-1fbe-4046-acab-9a1139a227f2",
+    "type": "domain",
+    "value": "trojan-downloader.net",
+    "source": "batch_import",
+    "description": "Downloader trojan command server",
+    "confidence": 0.89,
+    "metadata": {
+      "detection_count": 178,
+      "seen_count": 76,
+      "payload_types": [
+        "trojan",
+        "ransomware",
+        "spyware"
+      ]
+    },
+    "first_seen": "2025-12-03T06:53:40.719400Z",
+    "last_seen": "2025-12-03T07:40:37.937099Z",
+    "detections": 178,
+    "score": 100
+  },
+  {
+    "id": "795acc99-3c6e-4926-b485-a15d8016fcaa",
+    "type": "hash",
+    "value": "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+    "source": "batch_import",
+    "description": "APT28 reconnaissance tool",
+    "confidence": 0.97,
+    "metadata": {
+      "detection_count": 389,
+      "seen_count": 167,
+      "apt_group": "APT28",
+      "tool_name": "CHOPSTICK"
+    },
+    "first_seen": "2025-12-03T06:53:40.719400Z",
+    "last_seen": "2025-12-03T07:40:37.939101Z",
+    "detections": 389,
+    "score": 100
+  },
+  {
+    "id": "ee613a91-c5b1-4d70-a87f-b7e8935f90bd",
+    "type": "url",
+    "value": "https://malware-dropper.com/install.exe",
+    "source": "batch_import",
+    "description": "Malware dropper URL",
+    "confidence": 0.94,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 89,
+      "payload": "Emotet"
+    },
+    "first_seen": "2025-12-03T06:53:40.719400Z",
+    "last_seen": "2025-12-03T07:40:37.940100Z",
+    "detections": 234,
+    "score": 100
+  },
+  {
+    "id": "433a6df9-19fb-43de-b703-0dd23641b43e",
+    "type": "email",
+    "value": "noreply@trusted-bank-security.com",
+    "source": "batch_import",
+    "description": "Typosquatting phishing email address",
+    "confidence": 0.82,
+    "metadata": {
+      "detection_count": 156,
+      "seen_count": 45,
+      "spoofing_target": "Bank of America"
+    },
+    "first_seen": "2025-12-03T06:53:42.758349Z",
+    "last_seen": "2025-12-03T07:40:39.985097Z",
+    "detections": 156,
+    "score": 87.16
+  },
+  {
+    "id": "186c638f-1291-4c51-aff9-5191db060f59",
+    "type": "ip",
+    "value": "192.0.2.100",
+    "source": "batch_import",
+    "description": "Credential harvesting infrastructure",
+    "confidence": 0.85,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 89,
+      "country": "KZ"
+    },
+    "first_seen": "2025-12-03T07:40:39.985097Z",
+    "last_seen": "2025-12-03T07:40:39.985097Z",
+    "detections": 0,
+    "score": 89.8
+  },
+  {
+    "id": "66dd22f9-703c-45e7-95ba-5a9227267a28",
+    "type": "domain",
+    "value": "fake-microsoft-update.com",
+    "source": "batch_import",
+    "description": "Fake Microsoft update distribution domain",
+    "confidence": 0.91,
+    "metadata": {
+      "detection_count": 345,
+      "seen_count": 123
+    },
+    "first_seen": "2025-12-03T07:40:39.997458Z",
+    "last_seen": "2025-12-03T07:40:39.997458Z",
+    "detections": 0,
+    "score": 90.53
+  },
+  {
+    "id": "ee955951-2a25-4f72-8703-0617fc2366f0",
+    "type": "url",
+    "value": "http://suspicious-download.ru/payload.bin",
+    "source": "batch_import",
+    "description": "Suspicious binary download URL",
+    "confidence": 0.88,
+    "metadata": {
+      "detection_count": 178,
+      "seen_count": 56
+    },
+    "first_seen": "2025-12-03T07:40:40.001164Z",
+    "last_seen": "2025-12-03T07:40:40.001164Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "2c349a12-83ae-44de-b5fe-6c498aee9298",
+    "type": "hash",
+    "value": "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1",
+    "source": "batch_import",
+    "description": "Spyware.Win32.AgentTesla variant",
+    "confidence": 0.94,
+    "metadata": {
+      "detection_count": 456,
+      "seen_count": 198
+    },
+    "first_seen": "2025-12-03T07:40:40.003299Z",
+    "last_seen": "2025-12-03T07:40:40.003299Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "c79b833b-c220-43de-99b1-6ba107442814",
+    "type": "email",
+    "value": "invoice@fake-company.net",
+    "source": "batch_import",
+    "description": "Fake invoice phishing email",
+    "confidence": 0.79,
+    "metadata": {
+      "detection_count": 89,
+      "seen_count": 32
+    },
+    "first_seen": "2025-12-03T07:40:40.003730Z",
+    "last_seen": "2025-12-03T07:40:40.003730Z",
+    "detections": 0,
+    "score": 84.52
+  },
+  {
+    "id": "74a6dcb9-8544-4f70-bf2e-e1f817bc14bc",
+    "type": "ip",
+    "value": "203.0.113.55",
+    "source": "batch_import",
+    "description": "Port scanning activity detected",
+    "confidence": 0.72,
+    "metadata": {
+      "detection_count": 123,
+      "seen_count": 41,
+      "country": "VN"
+    },
+    "first_seen": "2025-12-03T07:40:40.006021Z",
+    "last_seen": "2025-12-03T07:40:40.006021Z",
+    "detections": 0,
+    "score": 78.36
+  },
+  {
+    "id": "587bdc54-e589-4c3f-bd49-73b53c50c7f5",
+    "type": "domain",
+    "value": "stolen-data-marketplace.onion",
+    "source": "batch_import",
+    "description": "Dark web marketplace for stolen credentials",
+    "confidence": 0.97,
+    "metadata": {
+      "detection_count": 567,
+      "seen_count": 234
+    },
+    "first_seen": "2025-12-03T07:40:40.007065Z",
+    "last_seen": "2025-12-03T07:40:40.007065Z",
+    "detections": 0,
+    "score": 95.51
+  },
+  {
+    "id": "b6c9c944-fd83-4c70-8086-1faaa67819d8",
+    "type": "cve",
+    "value": "CVE-2024-3003",
+    "source": "batch_import",
+    "description": "Unpatched SQL injection vulnerability",
+    "confidence": 0.95,
+    "metadata": {
+      "detection_count": 678,
+      "seen_count": 312,
+      "cvss_score": 9.2
+    },
+    "first_seen": "2025-12-03T07:40:40.009029Z",
+    "last_seen": "2025-12-03T07:40:40.009029Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "570fd94c-30bd-4494-a4fe-d39e16825f68",
+    "type": "file",
+    "value": "update_windows.exe",
+    "source": "batch_import",
+    "description": "Trojan disguised as Windows update",
+    "confidence": 0.93,
+    "metadata": {
+      "detection_count": 345,
+      "seen_count": 156
+    },
+    "first_seen": "2025-12-03T07:40:40.010047Z",
+    "last_seen": "2025-12-03T07:40:40.010047Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "9488e156-9943-427f-a9e1-f55ac2214175",
+    "type": "ip",
+    "value": "198.51.100.75",
+    "source": "batch_import",
+    "description": "DDoS botnet command server",
+    "confidence": 0.89,
+    "metadata": {
+      "detection_count": 456,
+      "seen_count": 145,
+      "country": "RU"
+    },
+    "first_seen": "2025-12-03T07:40:42.044584Z",
+    "last_seen": "2025-12-03T07:40:42.044584Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "8409b444-0298-4ad7-8055-089dd91bed80",
+    "type": "domain",
+    "value": "crypto-wallet-phish.com",
+    "source": "batch_import",
+    "description": "Cryptocurrency wallet phishing site",
+    "confidence": 0.92,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 78
+    },
+    "first_seen": "2025-12-03T07:40:42.047819Z",
+    "last_seen": "2025-12-03T07:40:42.047819Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "79f7d689-900b-433e-ab86-17439724dc85",
+    "type": "url",
+    "value": "https://redirect.malicious.net/click?id=12345",
+    "source": "batch_import",
+    "description": "Ad fraud redirect URL",
+    "confidence": 0.81,
+    "metadata": {
+      "detection_count": 167,
+      "seen_count": 63
+    },
+    "first_seen": "2025-12-03T07:40:42.049372Z",
+    "last_seen": "2025-12-03T07:40:42.049372Z",
+    "detections": 0,
+    "score": 94.38
+  },
+  {
+    "id": "7e0d4857-3e6b-40d6-8c11-203270226861",
+    "type": "hash",
+    "value": "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+    "source": "batch_import",
+    "description": "Ransomware.LockBit variant",
+    "confidence": 0.98,
+    "metadata": {
+      "detection_count": 789,
+      "seen_count": 456
+    },
+    "first_seen": "2025-12-03T07:40:42.050991Z",
+    "last_seen": "2025-12-03T07:40:42.050991Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "533f0367-7ee8-48db-9e41-5fd77b28be1e",
+    "type": "email",
+    "value": "paypal-verify@ph-payment.net",
+    "source": "batch_import",
+    "description": "PayPal phishing email impersonation",
+    "confidence": 0.88,
+    "metadata": {
+      "detection_count": 178,
+      "seen_count": 71
+    },
+    "first_seen": "2025-12-03T07:40:42.052575Z",
+    "last_seen": "2025-12-03T07:40:42.052575Z",
+    "detections": 0,
+    "score": 92.44
+  },
+  {
+    "id": "ab132771-a9cc-47e0-a713-195aa1dcf023",
+    "type": "ip",
+    "value": "192.0.2.200",
+    "source": "batch_import",
+    "description": "Malware C&C infrastructure node",
+    "confidence": 0.86,
+    "metadata": {
+      "detection_count": 345,
+      "seen_count": 134,
+      "country": "CN"
+    },
+    "first_seen": "2025-12-03T07:40:42.055432Z",
+    "last_seen": "2025-12-03T07:40:42.055432Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "fc1254eb-2b8d-473b-806e-75821919f5fd",
+    "type": "domain",
+    "value": "malware-beacon.xyz",
+    "source": "batch_import",
+    "description": "Malware beacon communication domain",
+    "confidence": 0.96,
+    "metadata": {
+      "detection_count": 567,
+      "seen_count": 278
+    },
+    "first_seen": "2025-12-03T07:40:42.056776Z",
+    "last_seen": "2025-12-03T07:40:42.056776Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "e720cba3-3524-46e9-9508-b1def63febe4",
+    "type": "url",
+    "value": "http://drive-by-download.net/video.js",
+    "source": "batch_import",
+    "description": "Drive-by download exploit script",
+    "confidence": 0.87,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 98
+    },
+    "first_seen": "2025-12-03T07:40:42.058781Z",
+    "last_seen": "2025-12-03T07:40:42.058781Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "b135d808-c89d-4360-901f-806581475c9b",
+    "type": "hash",
+    "value": "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3",
+    "source": "batch_import",
+    "description": "Backdoor.Win32.Remcos RAT",
+    "confidence": 0.99,
+    "metadata": {
+      "detection_count": 890,
+      "seen_count": 534
+    },
+    "first_seen": "2025-12-03T07:40:42.059782Z",
+    "last_seen": "2025-12-03T07:40:42.059782Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "1d116de1-2acd-4fa6-bae6-0f84f32050bb",
+    "type": "email",
+    "value": "admin-notice@company-alert.com",
+    "source": "batch_import",
+    "description": "Business email compromise attempt",
+    "confidence": 0.84,
+    "metadata": {
+      "detection_count": 123,
+      "seen_count": 45
+    },
+    "first_seen": "2025-12-03T07:40:42.061780Z",
+    "last_seen": "2025-12-03T07:40:42.061780Z",
+    "detections": 0,
+    "score": 76.32
+  },
+  {
+    "id": "0f407968-1c68-46b0-9fda-c3eee45ce2b6",
+    "type": "ip",
+    "value": "203.0.113.100",
+    "source": "batch_import",
+    "description": "Proxy for anonymized attack infrastructure",
+    "confidence": 0.8,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 89,
+      "country": "HK"
+    },
+    "first_seen": "2025-12-03T07:40:44.077254Z",
+    "last_seen": "2025-12-03T07:40:44.077254Z",
+    "detections": 0,
+    "score": 85.4
+  },
+  {
+    "id": "20ef64ea-f61f-44d3-8fe7-b3cc13fe1832",
+    "type": "domain",
+    "value": "image-hosting-exploit.net",
+    "source": "batch_import",
+    "description": "Exploit kit hosted on image hosting domain",
+    "confidence": 0.89,
+    "metadata": {
+      "detection_count": 345,
+      "seen_count": 123
+    },
+    "first_seen": "2025-12-03T07:40:44.084815Z",
+    "last_seen": "2025-12-03T07:40:44.084815Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "0bec4d57-67c4-426e-ae4f-19c8f0c6239f",
+    "type": "cve",
+    "value": "CVE-2024-4004",
+    "source": "batch_import",
+    "description": "Windows elevation of privilege vulnerability",
+    "confidence": 0.97,
+    "metadata": {
+      "detection_count": 756,
+      "seen_count": 389,
+      "cvss_score": 8.8
+    },
+    "first_seen": "2025-12-03T07:40:44.084815Z",
+    "last_seen": "2025-12-03T07:40:44.084815Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "b3661464-2a44-4ad3-98c3-359f3c356557",
+    "type": "file",
+    "value": "system32_update.dll",
+    "source": "batch_import",
+    "description": "Malicious DLL masquerading as system update",
+    "confidence": 0.95,
+    "metadata": {
+      "detection_count": 567,
+      "seen_count": 234
+    },
+    "first_seen": "2025-12-03T07:40:44.091167Z",
+    "last_seen": "2025-12-03T07:40:44.091167Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "722b262e-0ce7-48d7-9c77-f7b6c45fd0df",
+    "type": "url",
+    "value": "https://credential-stealer.com/form.php",
+    "source": "batch_import",
+    "description": "Credential stealer form submission endpoint",
+    "confidence": 0.93,
+    "metadata": {
+      "detection_count": 456,
+      "seen_count": 178
+    },
+    "first_seen": "2025-12-03T07:40:44.092799Z",
+    "last_seen": "2025-12-03T07:40:44.092799Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "4603f576-8211-455c-bb01-b6382d61a649",
+    "type": "hash",
+    "value": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d5",
+    "source": "batch_import",
+    "description": "Trojan.Bancos credential stealer",
+    "confidence": 0.94,
+    "metadata": {
+      "detection_count": 678,
+      "seen_count": 312
+    },
+    "first_seen": "2025-12-03T07:40:44.095190Z",
+    "last_seen": "2025-12-03T07:40:44.095190Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "8053834d-0a79-49e8-b573-0899b9697715",
+    "type": "ip",
+    "value": "198.51.100.125",
+    "source": "batch_import",
+    "description": "SSH exploitation attempts detected",
+    "confidence": 0.75,
+    "metadata": {
+      "detection_count": 189,
+      "seen_count": 67,
+      "country": "IR"
+    },
+    "first_seen": "2025-12-03T07:40:44.096202Z",
+    "last_seen": "2025-12-03T07:40:44.096202Z",
+    "detections": 0,
+    "score": 92.25
+  },
+  {
+    "id": "ee74b5e4-f6f9-4596-bb05-23d8af9dbe83",
+    "type": "domain",
+    "value": "webshell-hosting.net",
+    "source": "batch_import",
+    "description": "Web shell hosting infrastructure",
+    "confidence": 0.91,
+    "metadata": {
+      "detection_count": 423,
+      "seen_count": 167
+    },
+    "first_seen": "2025-12-03T07:40:44.098185Z",
+    "last_seen": "2025-12-03T07:40:44.098185Z",
+    "detections": 0,
+    "score": 90.53
+  },
+  {
+    "id": "f88cf759-e503-42f7-8921-60f599ed2fcf",
+    "type": "email",
+    "value": "tax-refund@revenue.fake",
+    "source": "batch_import",
+    "description": "Tax refund phishing email",
+    "confidence": 0.83,
+    "metadata": {
+      "detection_count": 156,
+      "seen_count": 54
+    },
+    "first_seen": "2025-12-03T07:40:44.099187Z",
+    "last_seen": "2025-12-03T07:40:44.099187Z",
+    "detections": 0,
+    "score": 88.04
+  },
+  {
+    "id": "a71afffa-fe08-485a-a67e-6770babba5f3",
+    "type": "url",
+    "value": "http://ransomware-as-service.dark/payment",
+    "source": "batch_import",
+    "description": "RaaS payment processing endpoint",
+    "confidence": 0.96,
+    "metadata": {
+      "detection_count": 534,
+      "seen_count": 267
+    },
+    "first_seen": "2025-12-03T07:40:44.101185Z",
+    "last_seen": "2025-12-03T07:40:44.101185Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "5cf25b41-d55f-4e67-bd7e-220efe2f54e3",
+    "type": "hash",
+    "value": "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e6",
+    "source": "batch_import",
+    "description": "Trojan.Necurs botnet malware",
+    "confidence": 0.92,
+    "metadata": {
+      "detection_count": 567,
+      "seen_count": 278
+    },
+    "first_seen": "2025-12-03T07:40:46.110403Z",
+    "last_seen": "2025-12-03T07:40:46.110403Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "bf942954-9400-46b7-b717-c03b0026acb3",
+    "type": "ip",
+    "value": "192.0.2.150",
+    "source": "batch_import",
+    "description": "Open proxy used for attack staging",
+    "confidence": 0.77,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 78,
+      "country": "PK"
+    },
+    "first_seen": "2025-12-03T07:40:46.110403Z",
+    "last_seen": "2025-12-03T07:40:46.110403Z",
+    "detections": 0,
+    "score": 82.76
+  },
+  {
+    "id": "476a2b2b-a4ab-47b9-8f2c-8063dd9f9d22",
+    "type": "domain",
+    "value": "exploit-pack-distribution.cc",
+    "source": "batch_import",
+    "description": "Exploit pack distribution network",
+    "confidence": 0.94,
+    "metadata": {
+      "detection_count": 456,
+      "seen_count": 189
+    },
+    "first_seen": "2025-12-03T07:40:46.110403Z",
+    "last_seen": "2025-12-03T07:40:46.110403Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "1033901f-9410-4edb-bd5e-b85c5493ddbc",
+    "type": "cve",
+    "value": "CVE-2024-5005",
+    "source": "batch_import",
+    "description": "Browser zero-day remote code execution",
+    "confidence": 0.99,
+    "metadata": {
+      "detection_count": 923,
+      "seen_count": 567,
+      "cvss_score": 9.9
+    },
+    "first_seen": "2025-12-03T07:40:46.127063Z",
+    "last_seen": "2025-12-03T07:40:46.127063Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "4aa25207-997e-4354-8d1e-be83595ded6b",
+    "type": "file",
+    "value": "chrome_plugin_update.crx",
+    "source": "batch_import",
+    "description": "Malicious Chrome extension masquerading as update",
+    "confidence": 0.9,
+    "metadata": {
+      "detection_count": 345,
+      "seen_count": 145
+    },
+    "first_seen": "2025-12-03T07:40:46.128071Z",
+    "last_seen": "2025-12-03T07:40:46.128071Z",
+    "detections": 0,
+    "score": 98.7
+  },
+  {
+    "id": "3bfb41dc-88ed-455e-bcea-63a55ea2c9e3",
+    "type": "url",
+    "value": "https://bitcoin-mixer.net/tumble",
+    "source": "batch_import",
+    "description": "Bitcoin mixing service for money laundering",
+    "confidence": 0.88,
+    "metadata": {
+      "detection_count": 289,
+      "seen_count": 112
+    },
+    "first_seen": "2025-12-03T07:40:46.130370Z",
+    "last_seen": "2025-12-03T07:40:46.130370Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "ce0386ed-bdfe-4f56-a292-7c2b91395f33",
+    "type": "hash",
+    "value": "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f7",
+    "source": "batch_import",
+    "description": "Infostealer.ArechClient variant",
+    "confidence": 0.93,
+    "metadata": {
+      "detection_count": 456,
+      "seen_count": 201
+    },
+    "first_seen": "2025-12-03T07:40:46.131371Z",
+    "last_seen": "2025-12-03T07:40:46.131371Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "c245f26d-a5ec-4a19-9e6f-6c0feffead8f",
+    "type": "email",
+    "value": "delivery-notification@fake-ups.com",
+    "source": "batch_import",
+    "description": "Fake delivery notification phishing",
+    "confidence": 0.86,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 89
+    },
+    "first_seen": "2025-12-03T07:40:46.133576Z",
+    "last_seen": "2025-12-03T07:40:46.133576Z",
+    "detections": 0,
+    "score": 90.68
+  },
+  {
+    "id": "251e43a9-9a85-4d24-a178-7790e41802dc",
+    "type": "ip",
+    "value": "203.0.113.150",
+    "source": "batch_import",
+    "description": "Compromised IoT device in botnet",
+    "confidence": 0.82,
+    "metadata": {
+      "detection_count": 267,
+      "seen_count": 98,
+      "country": "BR"
+    },
+    "first_seen": "2025-12-03T07:40:46.134608Z",
+    "last_seen": "2025-12-03T07:40:46.134608Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "5850f272-bd39-40c4-acaa-d58f38f8402a",
+    "type": "domain",
+    "value": "click-fraud-network.net",
+    "source": "batch_import",
+    "description": "Click fraud botnet command server",
+    "confidence": 0.85,
+    "metadata": {
+      "detection_count": 367,
+      "seen_count": 134
+    },
+    "first_seen": "2025-12-03T07:40:46.136928Z",
+    "last_seen": "2025-12-03T07:40:46.136928Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "a379c14d-3c48-4b4e-a456-6b768b515a84",
+    "type": "url",
+    "value": "http://survey-scam-redirect.net/offer",
+    "source": "batch_import",
+    "description": "Survey scam redirect page",
+    "confidence": 0.79,
+    "metadata": {
+      "detection_count": 156,
+      "seen_count": 62
+    },
+    "first_seen": "2025-12-03T07:40:48.149149Z",
+    "last_seen": "2025-12-03T07:40:48.149149Z",
+    "detections": 0,
+    "score": 92.42
+  },
+  {
+    "id": "065ee685-d832-40c6-b13c-1d005b43c39c",
+    "type": "hash",
+    "value": "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a2",
+    "source": "batch_import",
+    "description": "Trojan.ZusCrypt encryption malware",
+    "confidence": 0.97,
+    "metadata": {
+      "detection_count": 678,
+      "seen_count": 345
+    },
+    "first_seen": "2025-12-03T07:40:48.158258Z",
+    "last_seen": "2025-12-03T07:40:48.158258Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "63bd1ad4-5407-488e-b358-c69dfa724cf6",
+    "type": "email",
+    "value": "noreply@amazon-security-alert.net",
+    "source": "batch_import",
+    "description": "Amazon account security phishing email",
+    "confidence": 0.87,
+    "metadata": {
+      "detection_count": 289,
+      "seen_count": 103
+    },
+    "first_seen": "2025-12-03T07:40:48.164998Z",
+    "last_seen": "2025-12-03T07:40:48.164998Z",
+    "detections": 0,
+    "score": 91.56
+  },
+  {
+    "id": "f7d402b8-72aa-4240-827f-2f0d063a9be9",
+    "type": "ip",
+    "value": "198.51.100.200",
+    "source": "batch_import",
+    "description": "Spam botnet relay node",
+    "confidence": 0.73,
+    "metadata": {
+      "detection_count": 178,
+      "seen_count": 67,
+      "country": "NG"
+    },
+    "first_seen": "2025-12-03T07:40:48.168454Z",
+    "last_seen": "2025-12-03T07:40:48.168454Z",
+    "detections": 0,
+    "score": 97.49
+  },
+  {
+    "id": "a0719ab8-0303-4e73-9951-9a88b281e337",
+    "type": "domain",
+    "value": "fake-antivirus-scan.net",
+    "source": "batch_import",
+    "description": "Scareware fake antivirus scan site",
+    "confidence": 0.88,
+    "metadata": {
+      "detection_count": 345,
+      "seen_count": 128
+    },
+    "first_seen": "2025-12-03T07:40:48.170455Z",
+    "last_seen": "2025-12-03T07:40:48.170455Z",
+    "detections": 0,
+    "score": 88.04
+  },
+  {
+    "id": "2fcf4c0a-8ea6-44bd-85cd-ff83df460b70",
+    "type": "cve",
+    "value": "CVE-2024-6006",
+    "source": "batch_import",
+    "description": "Adobe Reader arbitrary code execution",
+    "confidence": 0.96,
+    "metadata": {
+      "detection_count": 834,
+      "seen_count": 456,
+      "cvss_score": 9.6
+    },
+    "first_seen": "2025-12-03T07:40:48.171476Z",
+    "last_seen": "2025-12-03T07:40:48.171476Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "022f1f9f-7ef3-4c9b-a18d-0879fcbaed2c",
+    "type": "file",
+    "value": "document_macro.docm",
+    "source": "batch_import",
+    "description": "Word document with malicious macro",
+    "confidence": 0.92,
+    "metadata": {
+      "detection_count": 456,
+      "seen_count": 198
+    },
+    "first_seen": "2025-12-03T07:40:48.171476Z",
+    "last_seen": "2025-12-03T07:40:48.171476Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "952b30aa-3ed7-4b96-97c5-c5b14ae9ff7d",
+    "type": "url",
+    "value": "https://watering-hole-attack.org/news",
+    "source": "batch_import",
+    "description": "Watering hole attack website",
+    "confidence": 0.91,
+    "metadata": {
+      "detection_count": 389,
+      "seen_count": 167
+    },
+    "first_seen": "2025-12-03T07:40:48.171476Z",
+    "last_seen": "2025-12-03T07:40:48.171476Z",
+    "detections": 0,
+    "score": 100
+  },
+  {
+    "id": "b6e25b4c-04b4-45a4-b5f1-912c3cd694fd",
+    "type": "hash",
+    "value": "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b3",
+    "source": "batch_import",
+    "description": "Trojan.GenericKD malware",
+    "confidence": 0.88,
+    "metadata": {
+      "detection_count": 534,
+      "seen_count": 267
+    },
+    "first_seen": "2025-12-03T07:40:48.171476Z",
+    "last_seen": "2025-12-03T07:40:48.171476Z",
+    "detections": 0,
+    "score": 100
+  }
+]

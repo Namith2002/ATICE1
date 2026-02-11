@@ -1,0 +1,652 @@
+[
+  {
+    "type": "ip",
+    "value": "10.0.0.5",
+    "source": "virustotal",
+    "description": "Botnet command-and-control server, part of Mirai variant",
+    "confidence": 0.95,
+    "metadata": {
+      "detection_count": 156,
+      "seen_count": 89,
+      "country": "RU",
+      "asn": "AS12345",
+      "isp": "Unknown ISP"
+    }
+  },
+  {
+    "type": "ip",
+    "value": "172.16.0.50",
+    "source": "abuseipdb",
+    "description": "Ransomware distribution server",
+    "confidence": 0.92,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 112,
+      "country": "KP",
+      "attack_type": "ransomware"
+    }
+  },
+  {
+    "type": "domain",
+    "value": "malware-repo.online",
+    "source": "alienvault",
+    "description": "Malware hosting and distribution domain",
+    "confidence": 0.98,
+    "metadata": {
+      "detection_count": 412,
+      "seen_count": 178,
+      "registrar": "privacy-protected",
+      "created_date": "2024-01-15"
+    }
+  },
+  {
+    "type": "domain",
+    "value": "phishing-bank.net",
+    "source": "virustotal",
+    "description": "Phishing page impersonating major financial institutions",
+    "confidence": 0.94,
+    "metadata": {
+      "detection_count": 287,
+      "seen_count": 145,
+      "target_industry": "finance"
+    }
+  },
+  {
+    "type": "url",
+    "value": "http://malicious.site/exploit_kit",
+    "source": "internal",
+    "description": "Exploit kit delivery URL",
+    "confidence": 0.89,
+    "metadata": {
+      "detection_count": 156,
+      "seen_count": 67,
+      "exploit_type": "browser_exploit"
+    }
+  },
+  {
+    "type": "url",
+    "value": "https://backdoor-panel.ru/admin",
+    "source": "alienvault",
+    "description": "Remote access trojan command center",
+    "confidence": 0.96,
+    "metadata": {
+      "detection_count": 334,
+      "seen_count": 123,
+      "rat_family": "Unknown"
+    }
+  },
+  {
+    "type": "hash",
+    "value": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4",
+    "source": "virustotal",
+    "description": "Trojan.Win32.Emotet - banking malware",
+    "confidence": 1.0,
+    "metadata": {
+      "detection_count": 512,
+      "seen_count": 267,
+      "file_type": "PE32",
+      "file_size": "245KB",
+      "magic_bytes": "MZ"
+    }
+  },
+  {
+    "type": "hash",
+    "value": "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5",
+    "source": "internal",
+    "description": "Ransomware payload SHA256",
+    "confidence": 0.98,
+    "metadata": {
+      "detection_count": 445,
+      "seen_count": 189,
+      "file_type": "PE64",
+      "ransomware_family": "Conti"
+    }
+  },
+  {
+    "type": "email",
+    "value": "spam.sender@malicious.net",
+    "source": "manual",
+    "description": "Spam and phishing email sender",
+    "confidence": 0.87,
+    "metadata": {
+      "detection_count": 123,
+      "seen_count": 45,
+      "campaigns": 12
+    }
+  },
+  {
+    "type": "email",
+    "value": "botnet.controller@dark.onion",
+    "source": "internal",
+    "description": "Botnet command relay email",
+    "confidence": 0.92,
+    "metadata": {
+      "detection_count": 89,
+      "seen_count": 34,
+      "connected_domains": 5
+    }
+  },
+  {
+    "type": "cve",
+    "value": "CVE-2024-1001",
+    "source": "virustotal",
+    "description": "Critical remote code execution vulnerability in popular web framework",
+    "confidence": 0.99,
+    "metadata": {
+      "detection_count": 1024,
+      "seen_count": 512,
+      "cvss_score": 9.8,
+      "exploits_available": true,
+      "active_exploitation": true
+    }
+  },
+  {
+    "type": "cve",
+    "value": "CVE-2024-2002",
+    "source": "alienvault",
+    "description": "Privilege escalation vulnerability",
+    "confidence": 0.96,
+    "metadata": {
+      "detection_count": 567,
+      "seen_count": 289,
+      "cvss_score": 8.9,
+      "affected_versions": ["1.0", "1.1", "1.2"]
+    }
+  },
+  {
+    "type": "file",
+    "value": "svchost_malware.exe",
+    "source": "virustotal",
+    "description": "Worm.Win32.AutoRunner - self-propagating malware",
+    "confidence": 0.93,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 112,
+      "file_size": "512KB",
+      "imports": ["kernel32.dll", "advapi32.dll"]
+    }
+  },
+  {
+    "type": "file",
+    "value": "document_exploit.pdf",
+    "source": "internal",
+    "description": "PDF with embedded JavaScript exploit",
+    "confidence": 0.88,
+    "metadata": {
+      "detection_count": 156,
+      "seen_count": 78,
+      "exploit_target": "Adobe Reader"
+    }
+  },
+  {
+    "type": "ip",
+    "value": "203.0.113.10",
+    "source": "abuseipdb",
+    "description": "SSH brute force attacker",
+    "confidence": 0.76,
+    "metadata": {
+      "detection_count": 89,
+      "seen_count": 34,
+      "country": "CN",
+      "failed_attempts": 45000
+    }
+  },
+  {
+    "type": "ip",
+    "value": "198.51.100.20",
+    "source": "manual",
+    "description": "Suspicious data exfiltration endpoint",
+    "confidence": 0.68,
+    "metadata": {
+      "detection_count": 45,
+      "seen_count": 12,
+      "data_volume": "15GB",
+      "destination_country": "IR"
+    }
+  },
+  {
+    "type": "domain",
+    "value": "data-exfil.xyz",
+    "source": "virustotal",
+    "description": "Data exfiltration command and control domain",
+    "confidence": 0.91,
+    "metadata": {
+      "detection_count": 267,
+      "seen_count": 98,
+      "data_types": ["credentials", "personal_data", "source_code"]
+    }
+  },
+  {
+    "type": "domain",
+    "value": "trojan-downloader.net",
+    "source": "alienvault",
+    "description": "Downloader trojan command server",
+    "confidence": 0.89,
+    "metadata": {
+      "detection_count": 178,
+      "seen_count": 76,
+      "payload_types": ["trojan", "ransomware", "spyware"]
+    }
+  },
+  {
+    "type": "hash",
+    "value": "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+    "source": "virustotal",
+    "description": "APT28 reconnaissance tool",
+    "confidence": 0.97,
+    "metadata": {
+      "detection_count": 389,
+      "seen_count": 167,
+      "apt_group": "APT28",
+      "tool_name": "CHOPSTICK"
+    }
+  },
+  {
+    "type": "url",
+    "value": "https://malware-dropper.com/install.exe",
+    "source": "internal",
+    "description": "Malware dropper URL",
+    "confidence": 0.94,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 89,
+      "payload": "Emotet"
+    }
+  },
+  {
+    "type": "email",
+    "value": "noreply@trusted-bank-security.com",
+    "source": "manual",
+    "description": "Typosquatting phishing email address",
+    "confidence": 0.82,
+    "metadata": {
+      "detection_count": 156,
+      "seen_count": 45,
+      "spoofing_target": "Bank of America"
+    }
+  },
+  {
+    "type": "ip",
+    "value": "192.0.2.100",
+    "source": "virustotal",
+    "description": "Credential harvesting infrastructure",
+    "confidence": 0.85,
+    "metadata": {"detection_count": 234, "seen_count": 89, "country": "KZ"}
+  },
+  {
+    "type": "domain",
+    "value": "fake-microsoft-update.com",
+    "source": "alienvault",
+    "description": "Fake Microsoft update distribution domain",
+    "confidence": 0.91,
+    "metadata": {"detection_count": 345, "seen_count": 123}
+  },
+  {
+    "type": "url",
+    "value": "http://suspicious-download.ru/payload.bin",
+    "source": "internal",
+    "description": "Suspicious binary download URL",
+    "confidence": 0.88,
+    "metadata": {"detection_count": 178, "seen_count": 56}
+  },
+  {
+    "type": "hash",
+    "value": "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1",
+    "source": "virustotal",
+    "description": "Spyware.Win32.AgentTesla variant",
+    "confidence": 0.94,
+    "metadata": {"detection_count": 456, "seen_count": 198}
+  },
+  {
+    "type": "email",
+    "value": "invoice@fake-company.net",
+    "source": "manual",
+    "description": "Fake invoice phishing email",
+    "confidence": 0.79,
+    "metadata": {"detection_count": 89, "seen_count": 32}
+  },
+  {
+    "type": "ip",
+    "value": "203.0.113.55",
+    "source": "abuseipdb",
+    "description": "Port scanning activity detected",
+    "confidence": 0.72,
+    "metadata": {"detection_count": 123, "seen_count": 41, "country": "VN"}
+  },
+  {
+    "type": "domain",
+    "value": "stolen-data-marketplace.onion",
+    "source": "internal",
+    "description": "Dark web marketplace for stolen credentials",
+    "confidence": 0.97,
+    "metadata": {"detection_count": 567, "seen_count": 234}
+  },
+  {
+    "type": "cve",
+    "value": "CVE-2024-3003",
+    "source": "virustotal",
+    "description": "Unpatched SQL injection vulnerability",
+    "confidence": 0.95,
+    "metadata": {"detection_count": 678, "seen_count": 312, "cvss_score": 9.2}
+  },
+  {
+    "type": "file",
+    "value": "update_windows.exe",
+    "source": "internal",
+    "description": "Trojan disguised as Windows update",
+    "confidence": 0.93,
+    "metadata": {"detection_count": 345, "seen_count": 156}
+  },
+  {
+    "type": "ip",
+    "value": "198.51.100.75",
+    "source": "virustotal",
+    "description": "DDoS botnet command server",
+    "confidence": 0.89,
+    "metadata": {"detection_count": 456, "seen_count": 145, "country": "RU"}
+  },
+  {
+    "type": "domain",
+    "value": "crypto-wallet-phish.com",
+    "source": "alienvault",
+    "description": "Cryptocurrency wallet phishing site",
+    "confidence": 0.92,
+    "metadata": {"detection_count": 234, "seen_count": 78}
+  },
+  {
+    "type": "url",
+    "value": "https://redirect.malicious.net/click?id=12345",
+    "source": "internal",
+    "description": "Ad fraud redirect URL",
+    "confidence": 0.81,
+    "metadata": {"detection_count": 167, "seen_count": 63}
+  },
+  {
+    "type": "hash",
+    "value": "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+    "source": "virustotal",
+    "description": "Ransomware.LockBit variant",
+    "confidence": 0.98,
+    "metadata": {"detection_count": 789, "seen_count": 456}
+  },
+  {
+    "type": "email",
+    "value": "paypal-verify@ph-payment.net",
+    "source": "manual",
+    "description": "PayPal phishing email impersonation",
+    "confidence": 0.88,
+    "metadata": {"detection_count": 178, "seen_count": 71}
+  },
+  {
+    "type": "ip",
+    "value": "192.0.2.200",
+    "source": "abuseipdb",
+    "description": "Malware C&C infrastructure node",
+    "confidence": 0.86,
+    "metadata": {"detection_count": 345, "seen_count": 134, "country": "CN"}
+  },
+  {
+    "type": "domain",
+    "value": "malware-beacon.xyz",
+    "source": "virustotal",
+    "description": "Malware beacon communication domain",
+    "confidence": 0.96,
+    "metadata": {"detection_count": 567, "seen_count": 278}
+  },
+  {
+    "type": "url",
+    "value": "http://drive-by-download.net/video.js",
+    "source": "internal",
+    "description": "Drive-by download exploit script",
+    "confidence": 0.87,
+    "metadata": {"detection_count": 234, "seen_count": 98}
+  },
+  {
+    "type": "hash",
+    "value": "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3",
+    "source": "virustotal",
+    "description": "Backdoor.Win32.Remcos RAT",
+    "confidence": 0.99,
+    "metadata": {"detection_count": 890, "seen_count": 534}
+  },
+  {
+    "type": "email",
+    "value": "admin-notice@company-alert.com",
+    "source": "manual",
+    "description": "Business email compromise attempt",
+    "confidence": 0.84,
+    "metadata": {"detection_count": 123, "seen_count": 45}
+  },
+  {
+    "type": "ip",
+    "value": "203.0.113.100",
+    "source": "virustotal",
+    "description": "Proxy for anonymized attack infrastructure",
+    "confidence": 0.80,
+    "metadata": {"detection_count": 234, "seen_count": 89, "country": "HK"}
+  },
+  {
+    "type": "domain",
+    "value": "image-hosting-exploit.net",
+    "source": "alienvault",
+    "description": "Exploit kit hosted on image hosting domain",
+    "confidence": 0.89,
+    "metadata": {"detection_count": 345, "seen_count": 123}
+  },
+  {
+    "type": "cve",
+    "value": "CVE-2024-4004",
+    "source": "virustotal",
+    "description": "Windows elevation of privilege vulnerability",
+    "confidence": 0.97,
+    "metadata": {"detection_count": 756, "seen_count": 389, "cvss_score": 8.8}
+  },
+  {
+    "type": "file",
+    "value": "system32_update.dll",
+    "source": "internal",
+    "description": "Malicious DLL masquerading as system update",
+    "confidence": 0.95,
+    "metadata": {"detection_count": 567, "seen_count": 234}
+  },
+  {
+    "type": "url",
+    "value": "https://credential-stealer.com/form.php",
+    "source": "internal",
+    "description": "Credential stealer form submission endpoint",
+    "confidence": 0.93,
+    "metadata": {"detection_count": 456, "seen_count": 178}
+  },
+  {
+    "type": "hash",
+    "value": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d5",
+    "source": "virustotal",
+    "description": "Trojan.Bancos credential stealer",
+    "confidence": 0.94,
+    "metadata": {"detection_count": 678, "seen_count": 312}
+  },
+  {
+    "type": "ip",
+    "value": "198.51.100.125",
+    "source": "abuseipdb",
+    "description": "SSH exploitation attempts detected",
+    "confidence": 0.75,
+    "metadata": {"detection_count": 189, "seen_count": 67, "country": "IR"}
+  },
+  {
+    "type": "domain",
+    "value": "webshell-hosting.net",
+    "source": "internal",
+    "description": "Web shell hosting infrastructure",
+    "confidence": 0.91,
+    "metadata": {"detection_count": 423, "seen_count": 167}
+  },
+  {
+    "type": "email",
+    "value": "tax-refund@revenue.fake",
+    "source": "manual",
+    "description": "Tax refund phishing email",
+    "confidence": 0.83,
+    "metadata": {"detection_count": 156, "seen_count": 54}
+  },
+  {
+    "type": "url",
+    "value": "http://ransomware-as-service.dark/payment",
+    "source": "internal",
+    "description": "RaaS payment processing endpoint",
+    "confidence": 0.96,
+    "metadata": {"detection_count": 534, "seen_count": 267}
+  },
+  {
+    "type": "hash",
+    "value": "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e6",
+    "source": "virustotal",
+    "description": "Trojan.Necurs botnet malware",
+    "confidence": 0.92,
+    "metadata": {"detection_count": 567, "seen_count": 278}
+  },
+  {
+    "type": "ip",
+    "value": "192.0.2.150",
+    "source": "virustotal",
+    "description": "Open proxy used for attack staging",
+    "confidence": 0.77,
+    "metadata": {"detection_count": 234, "seen_count": 78, "country": "PK"}
+  },
+  {
+    "type": "domain",
+    "value": "exploit-pack-distribution.cc",
+    "source": "alienvault",
+    "description": "Exploit pack distribution network",
+    "confidence": 0.94,
+    "metadata": {"detection_count": 456, "seen_count": 189}
+  },
+  {
+    "type": "cve",
+    "value": "CVE-2024-5005",
+    "source": "virustotal",
+    "description": "Browser zero-day remote code execution",
+    "confidence": 0.99,
+    "metadata": {"detection_count": 923, "seen_count": 567, "cvss_score": 9.9}
+  },
+  {
+    "type": "file",
+    "value": "chrome_plugin_update.crx",
+    "source": "internal",
+    "description": "Malicious Chrome extension masquerading as update",
+    "confidence": 0.90,
+    "metadata": {"detection_count": 345, "seen_count": 145}
+  },
+  {
+    "type": "url",
+    "value": "https://bitcoin-mixer.net/tumble",
+    "source": "internal",
+    "description": "Bitcoin mixing service for money laundering",
+    "confidence": 0.88,
+    "metadata": {"detection_count": 289, "seen_count": 112}
+  },
+  {
+    "type": "hash",
+    "value": "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f7",
+    "source": "virustotal",
+    "description": "Infostealer.ArechClient variant",
+    "confidence": 0.93,
+    "metadata": {"detection_count": 456, "seen_count": 201}
+  },
+  {
+    "type": "email",
+    "value": "delivery-notification@fake-ups.com",
+    "source": "manual",
+    "description": "Fake delivery notification phishing",
+    "confidence": 0.86,
+    "metadata": {"detection_count": 234, "seen_count": 89}
+  },
+  {
+    "type": "ip",
+    "value": "203.0.113.150",
+    "source": "abuseipdb",
+    "description": "Compromised IoT device in botnet",
+    "confidence": 0.82,
+    "metadata": {"detection_count": 267, "seen_count": 98, "country": "BR"}
+  },
+  {
+    "type": "domain",
+    "value": "click-fraud-network.net",
+    "source": "virustotal",
+    "description": "Click fraud botnet command server",
+    "confidence": 0.85,
+    "metadata": {"detection_count": 367, "seen_count": 134}
+  },
+  {
+    "type": "url",
+    "value": "http://survey-scam-redirect.net/offer",
+    "source": "internal",
+    "description": "Survey scam redirect page",
+    "confidence": 0.79,
+    "metadata": {"detection_count": 156, "seen_count": 62}
+  },
+  {
+    "type": "hash",
+    "value": "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a2",
+    "source": "virustotal",
+    "description": "Trojan.ZusCrypt encryption malware",
+    "confidence": 0.97,
+    "metadata": {"detection_count": 678, "seen_count": 345}
+  },
+  {
+    "type": "email",
+    "value": "noreply@amazon-security-alert.net",
+    "source": "manual",
+    "description": "Amazon account security phishing email",
+    "confidence": 0.87,
+    "metadata": {"detection_count": 289, "seen_count": 103}
+  },
+  {
+    "type": "ip",
+    "value": "198.51.100.200",
+    "source": "virustotal",
+    "description": "Spam botnet relay node",
+    "confidence": 0.73,
+    "metadata": {"detection_count": 178, "seen_count": 67, "country": "NG"}
+  },
+  {
+    "type": "domain",
+    "value": "fake-antivirus-scan.net",
+    "source": "alienvault",
+    "description": "Scareware fake antivirus scan site",
+    "confidence": 0.88,
+    "metadata": {"detection_count": 345, "seen_count": 128}
+  },
+  {
+    "type": "cve",
+    "value": "CVE-2024-6006",
+    "source": "virustotal",
+    "description": "Adobe Reader arbitrary code execution",
+    "confidence": 0.96,
+    "metadata": {"detection_count": 834, "seen_count": 456, "cvss_score": 9.6}
+  },
+  {
+    "type": "file",
+    "value": "document_macro.docm",
+    "source": "internal",
+    "description": "Word document with malicious macro",
+    "confidence": 0.92,
+    "metadata": {"detection_count": 456, "seen_count": 198}
+  },
+  {
+    "type": "url",
+    "value": "https://watering-hole-attack.org/news",
+    "source": "internal",
+    "description": "Watering hole attack website",
+    "confidence": 0.91,
+    "metadata": {"detection_count": 389, "seen_count": 167}
+  },
+  {
+    "type": "hash",
+    "value": "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b3",
+    "source": "virustotal",
+    "description": "Trojan.GenericKD malware",
+    "confidence": 0.88,
+    "metadata": {"detection_count": 534, "seen_count": 267}
+  }
+]
