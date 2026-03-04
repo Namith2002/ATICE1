@@ -23,7 +23,17 @@ async function initializeApp() {
   } else {
     hideLoginModal();
     setupEventListeners();
-    loadDashboard();
+    try {
+      loadDashboard();
+    } catch (error) {
+      console.error("Dashboard load failed:", error);
+      // If loading dashboard fails due to auth, show login again
+      if (error.message.includes("authenticated") || error.message.includes("Session expired")) {
+        authToken = null;
+        localStorage.removeItem("aticeToken");
+        showLoginModal();
+      }
+    }
   }
 }
 
@@ -854,6 +864,11 @@ function purgeOldData() {
 }
 
 async function apiCall(method, path, body = null) {
+  // Check if user is authenticated
+  if (!authToken) {
+    throw new Error("Not authenticated. Please log in first.");
+  }
+
   const options = {
     method,
     headers: {
@@ -867,6 +882,14 @@ async function apiCall(method, path, body = null) {
   }
 
   const response = await fetch(API_BASE + path, options);
+
+  if (response.status === 401) {
+    // Token is invalid/expired, clear it and redirect to login
+    authToken = null;
+    localStorage.removeItem("aticeToken");
+    showLoginModal();
+    throw new Error("Session expired. Please log in again.");
+  }
 
   if (!response.ok) {
     const error = await response.json();

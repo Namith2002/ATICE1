@@ -43,6 +43,12 @@ def verify_token(token: str) -> dict:
 
 def get_current_user(credentials = Depends(security)) -> str:
     """Get current authenticated user from Bearer token."""
+    if not credentials:
+        raise HTTPException(status_code=401, detail="Missing authentication credentials")
+    
     token = credentials.credentials
+    if not token or token.lower() == "null":
+        raise HTTPException(status_code=401, detail="Invalid token")
+    
     payload = verify_token(token)
     return payload["username"]
