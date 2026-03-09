@@ -13,7 +13,7 @@ from typing import List, Dict, Any
 # Configuration
 API_BASE = "http://localhost:8000/api/v1"
 DEFAULT_USERNAME = "admin"
-DEFAULT_PASSWORD = "admin123"
+DEFAULT_PASSWORD = "admin"
 BATCH_SIZE = 10
 
 def get_auth_token(username: str, password: str) -> str:

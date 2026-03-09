@@ -196,7 +196,7 @@
       "isp": "Unknown ISP"
     },
     "first_seen": "2025-12-03T06:53:38.670520Z",
-    "last_seen": "2025-12-03T07:40:35.864788Z",
+    "last_seen": "2026-03-09T09:16:47.434311Z",
     "detections": 156,
     "score": 100
   },
@@ -214,7 +214,7 @@
       "attack_type": "ransomware"
     },
     "first_seen": "2025-12-03T06:53:38.670520Z",
-    "last_seen": "2025-12-03T07:40:35.874740Z",
+    "last_seen": "2026-03-09T09:16:47.438192Z",
     "detections": 234,
     "score": 100
   },
@@ -232,7 +232,7 @@
       "created_date": "2024-01-15"
     },
     "first_seen": "2025-12-03T06:53:38.670520Z",
-    "last_seen": "2025-12-03T07:40:35.877689Z",
+    "last_seen": "2026-03-09T09:16:47.438192Z",
     "detections": 412,
     "score": 100
   },
@@ -249,7 +249,7 @@
       "target_industry": "finance"
     },
     "first_seen": "2025-12-03T06:53:38.670520Z",
-    "last_seen": "2025-12-03T07:40:35.879684Z",
+    "last_seen": "2026-03-09T09:16:47.450285Z",
     "detections": 287,
     "score": 100
   },
@@ -266,7 +266,7 @@
       "exploit_type": "browser_exploit"
     },
     "first_seen": "2025-12-03T06:53:38.670520Z",
-    "last_seen": "2025-12-03T07:40:35.881555Z",
+    "last_seen": "2026-03-09T09:16:47.455117Z",
     "detections": 156,
     "score": 100
   },
@@ -283,7 +283,7 @@
       "rat_family": "Unknown"
     },
     "first_seen": "2025-12-03T06:53:38.670520Z",
-    "last_seen": "2025-12-03T07:40:35.882563Z",
+    "last_seen": "2026-03-09T09:16:47.459246Z",
     "detections": 334,
     "score": 100
   },
@@ -302,7 +302,7 @@
       "magic_bytes": "MZ"
     },
     "first_seen": "2025-12-03T06:53:38.670520Z",
-    "last_seen": "2025-12-03T07:40:35.883565Z",
+    "last_seen": "2026-03-09T09:16:47.463253Z",
     "detections": 512,
     "score": 100
   },
@@ -320,7 +320,7 @@
       "ransomware_family": "Conti"
     },
     "first_seen": "2025-12-03T06:53:38.670520Z",
-    "last_seen": "2025-12-03T07:40:35.884562Z",
+    "last_seen": "2026-03-09T09:16:47.468303Z",
     "detections": 445,
     "score": 100
   },
@@ -337,7 +337,7 @@
       "campaigns": 12
     },
     "first_seen": "2025-12-03T06:53:38.670520Z",
-    "last_seen": "2025-12-03T07:40:35.885562Z",
+    "last_seen": "2026-03-09T09:16:47.471701Z",
     "detections": 123,
     "score": 91.56
   },
@@ -354,7 +354,7 @@
       "connected_domains": 5
     },
     "first_seen": "2025-12-03T06:53:38.670520Z",
-    "last_seen": "2025-12-03T07:40:35.886561Z",
+    "last_seen": "2026-03-09T09:16:47.476532Z",
     "detections": 89,
     "score": 100
   },
@@ -373,7 +373,7 @@
       "active_exploitation": true
     },
     "first_seen": "2025-12-03T06:53:40.719400Z",
-    "last_seen": "2025-12-03T07:40:37.914756Z",
+    "last_seen": "2026-03-09T09:16:49.524931Z",
     "detections": 1024,
     "score": 100
   },
@@ -395,7 +395,7 @@
       ]
     },
     "first_seen": "2025-12-03T06:53:40.719400Z",
-    "last_seen": "2025-12-03T07:40:37.925060Z",
+    "last_seen": "2026-03-09T09:16:49.533494Z",
     "detections": 567,
     "score": 100
   },
@@ -416,7 +416,7 @@
       ]
     },
     "first_seen": "2025-12-03T06:53:40.719400Z",
-    "last_seen": "2025-12-03T07:40:37.925060Z",
+    "last_seen": "2026-03-09T09:16:49.540414Z",
     "detections": 234,
     "score": 100
   },
@@ -433,7 +433,7 @@
       "exploit_target": "Adobe Reader"
     },
     "first_seen": "2025-12-03T06:53:40.719400Z",
-    "last_seen": "2025-12-03T07:40:37.932091Z",
+    "last_seen": "2026-03-09T09:16:49.546247Z",
     "detections": 156,
     "score": 100
   },
@@ -451,7 +451,7 @@
       "failed_attempts": 45000
     },
     "first_seen": "2025-12-03T06:53:40.719400Z",
-    "last_seen": "2025-12-03T07:40:37.934099Z",
+    "last_seen": "2026-03-09T09:16:49.549853Z",
     "detections": 89,
     "score": 81.88
   },
@@ -469,7 +469,7 @@
       "destination_country": "IR"
     },
     "first_seen": "2025-12-03T06:53:40.719400Z",
-    "last_seen": "2025-12-03T07:40:37.935102Z",
+    "last_seen": "2026-03-09T09:16:49.552855Z",
     "detections": 45,
     "score": 74.84
   },
@@ -490,7 +490,7 @@
       ]
     },
     "first_seen": "2025-12-03T06:53:40.719400Z",
-    "last_seen": "2025-12-03T07:40:37.936102Z",
+    "last_seen": "2026-03-09T09:16:49.556360Z",
     "detections": 267,
     "score": 90.53
   },
@@ -511,7 +511,7 @@
       ]
     },
     "first_seen": "2025-12-03T06:53:40.719400Z",
-    "last_seen": "2025-12-03T07:40:37.937099Z",
+    "last_seen": "2026-03-09T09:16:49.557311Z",
     "detections": 178,
     "score": 100
   },
@@ -529,7 +529,7 @@
       "tool_name": "CHOPSTICK"
     },
     "first_seen": "2025-12-03T06:53:40.719400Z",
-    "last_seen": "2025-12-03T07:40:37.939101Z",
+    "last_seen": "2026-03-09T09:16:49.557311Z",
     "detections": 389,
     "score": 100
   },
@@ -546,7 +546,7 @@
       "payload": "Emotet"
     },
     "first_seen": "2025-12-03T06:53:40.719400Z",
-    "last_seen": "2025-12-03T07:40:37.940100Z",
+    "last_seen": "2026-03-09T09:16:49.565973Z",
     "detections": 234,
     "score": 100
   },
@@ -563,7 +563,7 @@
       "spoofing_target": "Bank of America"
     },
     "first_seen": "2025-12-03T06:53:42.758349Z",
-    "last_seen": "2025-12-03T07:40:39.985097Z",
+    "last_seen": "2026-03-09T09:16:51.595343Z",
     "detections": 156,
     "score": 87.16
   },
@@ -580,8 +580,8 @@
       "country": "KZ"
     },
     "first_seen": "2025-12-03T07:40:39.985097Z",
-    "last_seen": "2025-12-03T07:40:39.985097Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:51.595343Z",
+    "detections": 234,
     "score": 89.8
   },
   {
@@ -596,8 +596,8 @@
       "seen_count": 123
     },
     "first_seen": "2025-12-03T07:40:39.997458Z",
-    "last_seen": "2025-12-03T07:40:39.997458Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:51.605648Z",
+    "detections": 345,
     "score": 90.53
   },
   {
@@ -612,8 +612,8 @@
       "seen_count": 56
     },
     "first_seen": "2025-12-03T07:40:40.001164Z",
-    "last_seen": "2025-12-03T07:40:40.001164Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:51.609550Z",
+    "detections": 178,
     "score": 100
   },
   {
@@ -628,8 +628,8 @@
       "seen_count": 198
     },
     "first_seen": "2025-12-03T07:40:40.003299Z",
-    "last_seen": "2025-12-03T07:40:40.003299Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:51.613356Z",
+    "detections": 456,
     "score": 100
   },
   {
@@ -644,8 +644,8 @@
       "seen_count": 32
     },
     "first_seen": "2025-12-03T07:40:40.003730Z",
-    "last_seen": "2025-12-03T07:40:40.003730Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:51.617360Z",
+    "detections": 89,
     "score": 84.52
   },
   {
@@ -661,8 +661,8 @@
       "country": "VN"
     },
     "first_seen": "2025-12-03T07:40:40.006021Z",
-    "last_seen": "2025-12-03T07:40:40.006021Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:51.617360Z",
+    "detections": 123,
     "score": 78.36
   },
   {
@@ -677,8 +677,8 @@
       "seen_count": 234
     },
     "first_seen": "2025-12-03T07:40:40.007065Z",
-    "last_seen": "2025-12-03T07:40:40.007065Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:51.627206Z",
+    "detections": 567,
     "score": 95.51
   },
   {
@@ -694,8 +694,8 @@
       "cvss_score": 9.2
     },
     "first_seen": "2025-12-03T07:40:40.009029Z",
-    "last_seen": "2025-12-03T07:40:40.009029Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:51.631048Z",
+    "detections": 678,
     "score": 100
   },
   {
@@ -710,8 +710,8 @@
       "seen_count": 156
     },
     "first_seen": "2025-12-03T07:40:40.010047Z",
-    "last_seen": "2025-12-03T07:40:40.010047Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:51.633056Z",
+    "detections": 345,
     "score": 100
   },
   {
@@ -727,8 +727,8 @@
       "country": "RU"
     },
     "first_seen": "2025-12-03T07:40:42.044584Z",
-    "last_seen": "2025-12-03T07:40:42.044584Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:53.649278Z",
+    "detections": 456,
     "score": 100
   },
   {
@@ -743,8 +743,8 @@
       "seen_count": 78
     },
     "first_seen": "2025-12-03T07:40:42.047819Z",
-    "last_seen": "2025-12-03T07:40:42.047819Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:53.649278Z",
+    "detections": 234,
     "score": 100
   },
   {
@@ -759,8 +759,8 @@
       "seen_count": 63
     },
     "first_seen": "2025-12-03T07:40:42.049372Z",
-    "last_seen": "2025-12-03T07:40:42.049372Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:53.661672Z",
+    "detections": 167,
     "score": 94.38
   },
   {
@@ -775,8 +775,8 @@
       "seen_count": 456
     },
     "first_seen": "2025-12-03T07:40:42.050991Z",
-    "last_seen": "2025-12-03T07:40:42.050991Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:53.666695Z",
+    "detections": 789,
     "score": 100
   },
   {
@@ -791,8 +791,8 @@
       "seen_count": 71
     },
     "first_seen": "2025-12-03T07:40:42.052575Z",
-    "last_seen": "2025-12-03T07:40:42.052575Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:53.669695Z",
+    "detections": 178,
     "score": 92.44
   },
   {
@@ -808,8 +808,8 @@
       "country": "CN"
     },
     "first_seen": "2025-12-03T07:40:42.055432Z",
-    "last_seen": "2025-12-03T07:40:42.055432Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:53.669695Z",
+    "detections": 345,
     "score": 100
   },
   {
@@ -824,8 +824,8 @@
       "seen_count": 278
     },
     "first_seen": "2025-12-03T07:40:42.056776Z",
-    "last_seen": "2025-12-03T07:40:42.056776Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:53.679527Z",
+    "detections": 567,
     "score": 100
   },
   {
@@ -840,8 +840,8 @@
       "seen_count": 98
     },
     "first_seen": "2025-12-03T07:40:42.058781Z",
-    "last_seen": "2025-12-03T07:40:42.058781Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:53.680935Z",
+    "detections": 234,
     "score": 100
   },
   {
@@ -856,8 +856,8 @@
       "seen_count": 534
     },
     "first_seen": "2025-12-03T07:40:42.059782Z",
-    "last_seen": "2025-12-03T07:40:42.059782Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:53.680935Z",
+    "detections": 890,
     "score": 100
   },
   {
@@ -872,8 +872,8 @@
       "seen_count": 45
     },
     "first_seen": "2025-12-03T07:40:42.061780Z",
-    "last_seen": "2025-12-03T07:40:42.061780Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:53.692709Z",
+    "detections": 123,
     "score": 76.32
   },
   {
@@ -889,8 +889,8 @@
       "country": "HK"
     },
     "first_seen": "2025-12-03T07:40:44.077254Z",
-    "last_seen": "2025-12-03T07:40:44.077254Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:55.718517Z",
+    "detections": 234,
     "score": 85.4
   },
   {
@@ -905,8 +905,8 @@
       "seen_count": 123
     },
     "first_seen": "2025-12-03T07:40:44.084815Z",
-    "last_seen": "2025-12-03T07:40:44.084815Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:55.722515Z",
+    "detections": 345,
     "score": 100
   },
   {
@@ -922,8 +922,8 @@
       "cvss_score": 8.8
     },
     "first_seen": "2025-12-03T07:40:44.084815Z",
-    "last_seen": "2025-12-03T07:40:44.084815Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:55.725468Z",
+    "detections": 756,
     "score": 100
   },
   {
@@ -938,8 +938,8 @@
       "seen_count": 234
     },
     "first_seen": "2025-12-03T07:40:44.091167Z",
-    "last_seen": "2025-12-03T07:40:44.091167Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:55.729468Z",
+    "detections": 567,
     "score": 100
   },
   {
@@ -954,8 +954,8 @@
       "seen_count": 178
     },
     "first_seen": "2025-12-03T07:40:44.092799Z",
-    "last_seen": "2025-12-03T07:40:44.092799Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:55.733402Z",
+    "detections": 456,
     "score": 100
   },
   {
@@ -970,8 +970,8 @@
       "seen_count": 312
     },
     "first_seen": "2025-12-03T07:40:44.095190Z",
-    "last_seen": "2025-12-03T07:40:44.095190Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:55.738407Z",
+    "detections": 678,
     "score": 100
   },
   {
@@ -987,8 +987,8 @@
       "country": "IR"
     },
     "first_seen": "2025-12-03T07:40:44.096202Z",
-    "last_seen": "2025-12-03T07:40:44.096202Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:55.741687Z",
+    "detections": 189,
     "score": 92.25
   },
   {
@@ -1003,8 +1003,8 @@
       "seen_count": 167
     },
     "first_seen": "2025-12-03T07:40:44.098185Z",
-    "last_seen": "2025-12-03T07:40:44.098185Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:55.745317Z",
+    "detections": 423,
     "score": 90.53
   },
   {
@@ -1019,8 +1019,8 @@
       "seen_count": 54
     },
     "first_seen": "2025-12-03T07:40:44.099187Z",
-    "last_seen": "2025-12-03T07:40:44.099187Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:55.749774Z",
+    "detections": 156,
     "score": 88.04
   },
   {
@@ -1035,8 +1035,8 @@
       "seen_count": 267
     },
     "first_seen": "2025-12-03T07:40:44.101185Z",
-    "last_seen": "2025-12-03T07:40:44.101185Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:55.753289Z",
+    "detections": 534,
     "score": 100
   },
   {
@@ -1051,8 +1051,8 @@
       "seen_count": 278
     },
     "first_seen": "2025-12-03T07:40:46.110403Z",
-    "last_seen": "2025-12-03T07:40:46.110403Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:57.772154Z",
+    "detections": 567,
     "score": 100
   },
   {
@@ -1068,8 +1068,8 @@
       "country": "PK"
     },
     "first_seen": "2025-12-03T07:40:46.110403Z",
-    "last_seen": "2025-12-03T07:40:46.110403Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:57.772154Z",
+    "detections": 234,
     "score": 82.76
   },
   {
@@ -1084,8 +1084,8 @@
       "seen_count": 189
     },
     "first_seen": "2025-12-03T07:40:46.110403Z",
-    "last_seen": "2025-12-03T07:40:46.110403Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:57.779949Z",
+    "detections": 456,
     "score": 100
   },
   {
@@ -1101,8 +1101,8 @@
       "cvss_score": 9.9
     },
     "first_seen": "2025-12-03T07:40:46.127063Z",
-    "last_seen": "2025-12-03T07:40:46.127063Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:57.785039Z",
+    "detections": 923,
     "score": 100
   },
   {
@@ -1117,8 +1117,8 @@
       "seen_count": 145
     },
     "first_seen": "2025-12-03T07:40:46.128071Z",
-    "last_seen": "2025-12-03T07:40:46.128071Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:57.790322Z",
+    "detections": 345,
     "score": 98.7
   },
   {
@@ -1133,8 +1133,8 @@
       "seen_count": 112
     },
     "first_seen": "2025-12-03T07:40:46.130370Z",
-    "last_seen": "2025-12-03T07:40:46.130370Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:57.796231Z",
+    "detections": 289,
     "score": 100
   },
   {
@@ -1149,8 +1149,8 @@
       "seen_count": 201
     },
     "first_seen": "2025-12-03T07:40:46.131371Z",
-    "last_seen": "2025-12-03T07:40:46.131371Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:57.800679Z",
+    "detections": 456,
     "score": 100
   },
   {
@@ -1165,8 +1165,8 @@
       "seen_count": 89
     },
     "first_seen": "2025-12-03T07:40:46.133576Z",
-    "last_seen": "2025-12-03T07:40:46.133576Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:57.805734Z",
+    "detections": 234,
     "score": 90.68
   },
   {
@@ -1182,8 +1182,8 @@
       "country": "BR"
     },
     "first_seen": "2025-12-03T07:40:46.134608Z",
-    "last_seen": "2025-12-03T07:40:46.134608Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:57.806597Z",
+    "detections": 267,
     "score": 100
   },
   {
@@ -1198,8 +1198,8 @@
       "seen_count": 134
     },
     "first_seen": "2025-12-03T07:40:46.136928Z",
-    "last_seen": "2025-12-03T07:40:46.136928Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:57.812495Z",
+    "detections": 367,
     "score": 100
   },
   {
@@ -1214,8 +1214,8 @@
       "seen_count": 62
     },
     "first_seen": "2025-12-03T07:40:48.149149Z",
-    "last_seen": "2025-12-03T07:40:48.149149Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:59.840370Z",
+    "detections": 156,
     "score": 92.42
   },
   {
@@ -1230,8 +1230,8 @@
       "seen_count": 345
     },
     "first_seen": "2025-12-03T07:40:48.158258Z",
-    "last_seen": "2025-12-03T07:40:48.158258Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:59.845666Z",
+    "detections": 678,
     "score": 100
   },
   {
@@ -1246,8 +1246,8 @@
       "seen_count": 103
     },
     "first_seen": "2025-12-03T07:40:48.164998Z",
-    "last_seen": "2025-12-03T07:40:48.164998Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:59.850095Z",
+    "detections": 289,
     "score": 91.56
   },
   {
@@ -1263,8 +1263,8 @@
       "country": "NG"
     },
     "first_seen": "2025-12-03T07:40:48.168454Z",
-    "last_seen": "2025-12-03T07:40:48.168454Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:59.856101Z",
+    "detections": 178,
     "score": 97.49
   },
   {
@@ -1279,8 +1279,8 @@
       "seen_count": 128
     },
     "first_seen": "2025-12-03T07:40:48.170455Z",
-    "last_seen": "2025-12-03T07:40:48.170455Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:59.861609Z",
+    "detections": 345,
     "score": 88.04
   },
   {
@@ -1296,8 +1296,8 @@
       "cvss_score": 9.6
     },
     "first_seen": "2025-12-03T07:40:48.171476Z",
-    "last_seen": "2025-12-03T07:40:48.171476Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:59.867347Z",
+    "detections": 834,
     "score": 100
   },
   {
@@ -1312,8 +1312,8 @@
       "seen_count": 198
     },
     "first_seen": "2025-12-03T07:40:48.171476Z",
-    "last_seen": "2025-12-03T07:40:48.171476Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:59.873344Z",
+    "detections": 456,
     "score": 100
   },
   {
@@ -1328,8 +1328,8 @@
       "seen_count": 167
     },
     "first_seen": "2025-12-03T07:40:48.171476Z",
-    "last_seen": "2025-12-03T07:40:48.171476Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:59.879191Z",
+    "detections": 389,
     "score": 100
   },
   {
@@ -1344,8 +1344,1175 @@
       "seen_count": 267
     },
     "first_seen": "2025-12-03T07:40:48.171476Z",
-    "last_seen": "2025-12-03T07:40:48.171476Z",
-    "detections": 0,
+    "last_seen": "2026-03-09T09:16:59.882643Z",
+    "detections": 534,
+    "score": 100
+  },
+  {
+    "id": "c43f9a50-6c6e-4ca7-92e6-398965e9f625",
+    "type": "ip",
+    "value": "10.0.0.5",
+    "source": "virustotal",
+    "description": "Botnet command-and-control server, part of Mirai variant",
+    "confidence": 0.95,
+    "metadata": {
+      "detection_count": 156,
+      "seen_count": 89,
+      "country": "RU",
+      "asn": "AS12345",
+      "isp": "Unknown ISP"
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 156,
+    "score": 100
+  },
+  {
+    "id": "9cdcfff4-b48b-480f-a76a-cb53bfead112",
+    "type": "ip",
+    "value": "172.16.0.50",
+    "source": "abuseipdb",
+    "description": "Ransomware distribution server",
+    "confidence": 0.92,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 112,
+      "country": "KP",
+      "attack_type": "ransomware"
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 234,
+    "score": 100
+  },
+  {
+    "id": "df7f9636-45ea-42c3-b650-daffc38f50ea",
+    "type": "domain",
+    "value": "malware-repo.online",
+    "source": "alienvault",
+    "description": "Malware hosting and distribution domain",
+    "confidence": 0.98,
+    "metadata": {
+      "detection_count": 412,
+      "seen_count": 178,
+      "registrar": "privacy-protected",
+      "created_date": "2024-01-15"
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 412,
+    "score": 100
+  },
+  {
+    "id": "50d841b7-b9cb-4775-8058-65c71b3dd188",
+    "type": "domain",
+    "value": "phishing-bank.net",
+    "source": "virustotal",
+    "description": "Phishing page impersonating major financial institutions",
+    "confidence": 0.94,
+    "metadata": {
+      "detection_count": 287,
+      "seen_count": 145,
+      "target_industry": "finance"
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 287,
+    "score": 100
+  },
+  {
+    "id": "8daf5218-59a3-4d19-85f5-80c8163523ae",
+    "type": "url",
+    "value": "http://malicious.site/exploit_kit",
+    "source": "internal",
+    "description": "Exploit kit delivery URL",
+    "confidence": 0.89,
+    "metadata": {
+      "detection_count": 156,
+      "seen_count": 67,
+      "exploit_type": "browser_exploit"
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 156,
+    "score": 100
+  },
+  {
+    "id": "b5971cdb-05af-44d6-9f15-ede7c70e773b",
+    "type": "url",
+    "value": "https://backdoor-panel.ru/admin",
+    "source": "alienvault",
+    "description": "Remote access trojan command center",
+    "confidence": 0.96,
+    "metadata": {
+      "detection_count": 334,
+      "seen_count": 123,
+      "rat_family": "Unknown"
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 334,
+    "score": 100
+  },
+  {
+    "id": "558e71ae-25d2-436d-a5ae-32332e1ac0df",
+    "type": "hash",
+    "value": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4",
+    "source": "virustotal",
+    "description": "Trojan.Win32.Emotet - banking malware",
+    "confidence": 1.0,
+    "metadata": {
+      "detection_count": 512,
+      "seen_count": 267,
+      "file_type": "PE32",
+      "file_size": "245KB",
+      "magic_bytes": "MZ"
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 512,
+    "score": 100
+  },
+  {
+    "id": "30117acb-c5c8-4579-a3e4-36cac0ed6362",
+    "type": "hash",
+    "value": "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5",
+    "source": "internal",
+    "description": "Ransomware payload SHA256",
+    "confidence": 0.98,
+    "metadata": {
+      "detection_count": 445,
+      "seen_count": 189,
+      "file_type": "PE64",
+      "ransomware_family": "Conti"
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 445,
+    "score": 100
+  },
+  {
+    "id": "616e901e-5f7a-49fd-a3af-335cbf49d06d",
+    "type": "email",
+    "value": "spam.sender@malicious.net",
+    "source": "manual",
+    "description": "Spam and phishing email sender",
+    "confidence": 0.87,
+    "metadata": {
+      "detection_count": 123,
+      "seen_count": 45,
+      "campaigns": 12
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 123,
+    "score": 73.55
+  },
+  {
+    "id": "351859a6-aeba-45e4-94cd-232686385dcd",
+    "type": "email",
+    "value": "botnet.controller@dark.onion",
+    "source": "internal",
+    "description": "Botnet command relay email",
+    "confidence": 0.92,
+    "metadata": {
+      "detection_count": 89,
+      "seen_count": 34,
+      "connected_domains": 5
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 89,
+    "score": 82.99
+  },
+  {
+    "id": "6725dfd8-34df-4787-8689-9386b278979b",
+    "type": "cve",
+    "value": "CVE-2024-1001",
+    "source": "virustotal",
+    "description": "Critical remote code execution vulnerability in popular web framework",
+    "confidence": 0.99,
+    "metadata": {
+      "detection_count": 1024,
+      "seen_count": 512,
+      "cvss_score": 9.8,
+      "exploits_available": true,
+      "active_exploitation": true
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 1024,
+    "score": 100
+  },
+  {
+    "id": "d3f394ea-7d56-45a3-abe5-dfaec3057135",
+    "type": "cve",
+    "value": "CVE-2024-2002",
+    "source": "alienvault",
+    "description": "Privilege escalation vulnerability",
+    "confidence": 0.96,
+    "metadata": {
+      "detection_count": 567,
+      "seen_count": 289,
+      "cvss_score": 8.9,
+      "affected_versions": [
+        "1.0",
+        "1.1",
+        "1.2"
+      ]
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 567,
+    "score": 100
+  },
+  {
+    "id": "a721e184-6e60-4663-b0ad-18f423d6d1f9",
+    "type": "file",
+    "value": "svchost_malware.exe",
+    "source": "virustotal",
+    "description": "Worm.Win32.AutoRunner - self-propagating malware",
+    "confidence": 0.93,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 112,
+      "file_size": "512KB",
+      "imports": [
+        "kernel32.dll",
+        "advapi32.dll"
+      ]
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 234,
+    "score": 100
+  },
+  {
+    "id": "394a36e6-b1b9-4c67-8a76-6a7259d889ca",
+    "type": "file",
+    "value": "document_exploit.pdf",
+    "source": "internal",
+    "description": "PDF with embedded JavaScript exploit",
+    "confidence": 0.88,
+    "metadata": {
+      "detection_count": 156,
+      "seen_count": 78,
+      "exploit_target": "Adobe Reader"
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 156,
+    "score": 94.73
+  },
+  {
+    "id": "99418082-a040-42b1-a23f-49e5511e0a53",
+    "type": "ip",
+    "value": "203.0.113.10",
+    "source": "abuseipdb",
+    "description": "SSH brute force attacker",
+    "confidence": 0.76,
+    "metadata": {
+      "detection_count": 89,
+      "seen_count": 34,
+      "country": "CN",
+      "failed_attempts": 45000
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 89,
+    "score": 63.56
+  },
+  {
+    "id": "52737e81-c15c-4151-be12-eeb0575585b4",
+    "type": "ip",
+    "value": "198.51.100.20",
+    "source": "manual",
+    "description": "Suspicious data exfiltration endpoint",
+    "confidence": 0.68,
+    "metadata": {
+      "detection_count": 45,
+      "seen_count": 12,
+      "data_volume": "15GB",
+      "destination_country": "IR"
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 45,
+    "score": 55.46
+  },
+  {
+    "id": "0b596296-d5b2-4765-998e-5221a82721e7",
+    "type": "domain",
+    "value": "data-exfil.xyz",
+    "source": "virustotal",
+    "description": "Data exfiltration command and control domain",
+    "confidence": 0.91,
+    "metadata": {
+      "detection_count": 267,
+      "seen_count": 98,
+      "data_types": [
+        "credentials",
+        "personal_data",
+        "source_code"
+      ]
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 267,
+    "score": 84.8
+  },
+  {
+    "id": "60b277bf-0d13-4e48-bb0c-ab134350b92a",
+    "type": "domain",
+    "value": "trojan-downloader.net",
+    "source": "alienvault",
+    "description": "Downloader trojan command server",
+    "confidence": 0.89,
+    "metadata": {
+      "detection_count": 178,
+      "seen_count": 76,
+      "payload_types": [
+        "trojan",
+        "ransomware",
+        "spyware"
+      ]
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 178,
+    "score": 93.14
+  },
+  {
+    "id": "d5176900-68d8-4ce9-9661-0bcbd3c3cee2",
+    "type": "hash",
+    "value": "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+    "source": "virustotal",
+    "description": "APT28 reconnaissance tool",
+    "confidence": 0.97,
+    "metadata": {
+      "detection_count": 389,
+      "seen_count": 167,
+      "apt_group": "APT28",
+      "tool_name": "CHOPSTICK"
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 389,
+    "score": 100
+  },
+  {
+    "id": "d9c4feea-3201-45ff-a5f8-521c6d96b133",
+    "type": "url",
+    "value": "https://malware-dropper.com/install.exe",
+    "source": "internal",
+    "description": "Malware dropper URL",
+    "confidence": 0.94,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 89,
+      "payload": "Emotet"
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 234,
+    "score": 100
+  },
+  {
+    "id": "923aa340-802b-4e06-a2bb-e9064fe251d8",
+    "type": "email",
+    "value": "noreply@trusted-bank-security.com",
+    "source": "manual",
+    "description": "Typosquatting phishing email address",
+    "confidence": 0.82,
+    "metadata": {
+      "detection_count": 156,
+      "seen_count": 45,
+      "spoofing_target": "Bank of America"
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 156,
+    "score": 72.89
+  },
+  {
+    "id": "9f9ddff3-761b-402f-81e9-8afded61c122",
+    "type": "ip",
+    "value": "192.0.2.100",
+    "source": "virustotal",
+    "description": "Credential harvesting infrastructure",
+    "confidence": 0.85,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 89,
+      "country": "KZ"
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 234,
+    "score": 81.64
+  },
+  {
+    "id": "3eb6dec7-f815-4e9a-9102-bb0e93298431",
+    "type": "domain",
+    "value": "fake-microsoft-update.com",
+    "source": "alienvault",
+    "description": "Fake Microsoft update distribution domain",
+    "confidence": 0.91,
+    "metadata": {
+      "detection_count": 345,
+      "seen_count": 123
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 345,
+    "score": 87.8
+  },
+  {
+    "id": "ef5a1205-f8e3-4032-b620-7df3cd1880f7",
+    "type": "url",
+    "value": "http://suspicious-download.ru/payload.bin",
+    "source": "internal",
+    "description": "Suspicious binary download URL",
+    "confidence": 0.88,
+    "metadata": {
+      "detection_count": 178,
+      "seen_count": 56
+    },
+    "first_seen": "2026-03-09T09:12:49.582316Z",
+    "last_seen": "2026-03-09T09:12:49.582316Z",
+    "detections": 178,
+    "score": 87.86
+  },
+  {
+    "id": "e04eeb93-be1d-4342-922f-96d602c6209a",
+    "type": "hash",
+    "value": "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1",
+    "source": "virustotal",
+    "description": "Spyware.Win32.AgentTesla variant",
+    "confidence": 0.94,
+    "metadata": {
+      "detection_count": 456,
+      "seen_count": 198
+    },
+    "first_seen": "2026-03-09T09:12:49.587280Z",
+    "last_seen": "2026-03-09T09:12:49.587280Z",
+    "detections": 456,
+    "score": 100
+  },
+  {
+    "id": "9484d1cf-ad37-4ae4-bfb5-b445c6e39216",
+    "type": "email",
+    "value": "invoice@fake-company.net",
+    "source": "manual",
+    "description": "Fake invoice phishing email",
+    "confidence": 0.79,
+    "metadata": {
+      "detection_count": 89,
+      "seen_count": 32
+    },
+    "first_seen": "2026-03-09T09:12:49.587280Z",
+    "last_seen": "2026-03-09T09:12:49.587280Z",
+    "detections": 89,
+    "score": 65.48
+  },
+  {
+    "id": "25920437-9b75-4ce6-9ae3-891faf8ede34",
+    "type": "ip",
+    "value": "203.0.113.55",
+    "source": "abuseipdb",
+    "description": "Port scanning activity detected",
+    "confidence": 0.72,
+    "metadata": {
+      "detection_count": 123,
+      "seen_count": 41,
+      "country": "VN"
+    },
+    "first_seen": "2026-03-09T09:12:49.587280Z",
+    "last_seen": "2026-03-09T09:12:49.587280Z",
+    "detections": 123,
+    "score": 63.46
+  },
+  {
+    "id": "da4fd4ae-c238-417b-b071-4cbc12262903",
+    "type": "domain",
+    "value": "stolen-data-marketplace.onion",
+    "source": "internal",
+    "description": "Dark web marketplace for stolen credentials",
+    "confidence": 0.97,
+    "metadata": {
+      "detection_count": 567,
+      "seen_count": 234
+    },
+    "first_seen": "2026-03-09T09:12:49.587280Z",
+    "last_seen": "2026-03-09T09:12:49.587280Z",
+    "detections": 567,
+    "score": 92.6
+  },
+  {
+    "id": "365e3f29-4f66-4484-9cc9-dc64aeff07d6",
+    "type": "cve",
+    "value": "CVE-2024-3003",
+    "source": "virustotal",
+    "description": "Unpatched SQL injection vulnerability",
+    "confidence": 0.95,
+    "metadata": {
+      "detection_count": 678,
+      "seen_count": 312,
+      "cvss_score": 9.2
+    },
+    "first_seen": "2026-03-09T09:12:49.587280Z",
+    "last_seen": "2026-03-09T09:12:49.587280Z",
+    "detections": 678,
+    "score": 100
+  },
+  {
+    "id": "76a7c7b9-b5a5-4311-bdac-bbb62559110c",
+    "type": "file",
+    "value": "update_windows.exe",
+    "source": "internal",
+    "description": "Trojan disguised as Windows update",
+    "confidence": 0.93,
+    "metadata": {
+      "detection_count": 345,
+      "seen_count": 156
+    },
+    "first_seen": "2026-03-09T09:12:49.587280Z",
+    "last_seen": "2026-03-09T09:12:49.587280Z",
+    "detections": 345,
+    "score": 100
+  },
+  {
+    "id": "f0df128d-356f-42f3-bd3a-facabf18cd71",
+    "type": "ip",
+    "value": "198.51.100.75",
+    "source": "virustotal",
+    "description": "DDoS botnet command server",
+    "confidence": 0.89,
+    "metadata": {
+      "detection_count": 456,
+      "seen_count": 145,
+      "country": "RU"
+    },
+    "first_seen": "2026-03-09T09:12:49.587280Z",
+    "last_seen": "2026-03-09T09:12:49.587280Z",
+    "detections": 456,
+    "score": 100
+  },
+  {
+    "id": "475873bb-dedb-46d8-a76b-de2cff73ea68",
+    "type": "domain",
+    "value": "crypto-wallet-phish.com",
+    "source": "alienvault",
+    "description": "Cryptocurrency wallet phishing site",
+    "confidence": 0.92,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 78
+    },
+    "first_seen": "2026-03-09T09:12:49.587280Z",
+    "last_seen": "2026-03-09T09:12:49.587280Z",
+    "detections": 234,
+    "score": 96.33
+  },
+  {
+    "id": "6fcfec03-f9b2-4b0c-a1d0-d9081098d027",
+    "type": "url",
+    "value": "https://redirect.malicious.net/click?id=12345",
+    "source": "internal",
+    "description": "Ad fraud redirect URL",
+    "confidence": 0.81,
+    "metadata": {
+      "detection_count": 167,
+      "seen_count": 63
+    },
+    "first_seen": "2026-03-09T09:12:49.587280Z",
+    "last_seen": "2026-03-09T09:12:49.587280Z",
+    "detections": 167,
+    "score": 81.18
+  },
+  {
+    "id": "25c48552-d04c-42c9-8b73-9113f42fbfaf",
+    "type": "hash",
+    "value": "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+    "source": "virustotal",
+    "description": "Ransomware.LockBit variant",
+    "confidence": 0.98,
+    "metadata": {
+      "detection_count": 789,
+      "seen_count": 456
+    },
+    "first_seen": "2026-03-09T09:12:49.587280Z",
+    "last_seen": "2026-03-09T09:12:49.587280Z",
+    "detections": 789,
+    "score": 100
+  },
+  {
+    "id": "f14a84d9-760a-4e6a-9a60-b5375e503c66",
+    "type": "email",
+    "value": "paypal-verify@ph-payment.net",
+    "source": "manual",
+    "description": "PayPal phishing email impersonation",
+    "confidence": 0.88,
+    "metadata": {
+      "detection_count": 178,
+      "seen_count": 71
+    },
+    "first_seen": "2026-03-09T09:12:49.587280Z",
+    "last_seen": "2026-03-09T09:12:49.587280Z",
+    "detections": 178,
+    "score": 79.06
+  },
+  {
+    "id": "e7686f2b-330e-4df5-9518-bcfbfbbf5e2d",
+    "type": "ip",
+    "value": "192.0.2.200",
+    "source": "abuseipdb",
+    "description": "Malware C&C infrastructure node",
+    "confidence": 0.86,
+    "metadata": {
+      "detection_count": 345,
+      "seen_count": 134,
+      "country": "CN"
+    },
+    "first_seen": "2026-03-09T09:12:49.587280Z",
+    "last_seen": "2026-03-09T09:12:49.587280Z",
+    "detections": 345,
+    "score": 100
+  },
+  {
+    "id": "162a74fc-aabe-4557-8099-38cb6138ee01",
+    "type": "domain",
+    "value": "malware-beacon.xyz",
+    "source": "virustotal",
+    "description": "Malware beacon communication domain",
+    "confidence": 0.96,
+    "metadata": {
+      "detection_count": 567,
+      "seen_count": 278
+    },
+    "first_seen": "2026-03-09T09:12:49.587280Z",
+    "last_seen": "2026-03-09T09:12:49.587280Z",
+    "detections": 567,
+    "score": 100
+  },
+  {
+    "id": "07ca2820-8739-4329-8cdc-8c98698555e6",
+    "type": "url",
+    "value": "http://drive-by-download.net/video.js",
+    "source": "internal",
+    "description": "Drive-by download exploit script",
+    "confidence": 0.87,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 98
+    },
+    "first_seen": "2026-03-09T09:12:49.587280Z",
+    "last_seen": "2026-03-09T09:12:49.587280Z",
+    "detections": 234,
+    "score": 100
+  },
+  {
+    "id": "6e8393d0-c11f-4a4f-aefe-e9ca9f5158a0",
+    "type": "hash",
+    "value": "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3",
+    "source": "virustotal",
+    "description": "Backdoor.Win32.Remcos RAT",
+    "confidence": 0.99,
+    "metadata": {
+      "detection_count": 890,
+      "seen_count": 534
+    },
+    "first_seen": "2026-03-09T09:12:49.587280Z",
+    "last_seen": "2026-03-09T09:12:49.587280Z",
+    "detections": 890,
+    "score": 100
+  },
+  {
+    "id": "b8ef67f0-7843-40a0-bdbe-b54bd001da46",
+    "type": "email",
+    "value": "admin-notice@company-alert.com",
+    "source": "manual",
+    "description": "Business email compromise attempt",
+    "confidence": 0.84,
+    "metadata": {
+      "detection_count": 123,
+      "seen_count": 45
+    },
+    "first_seen": "2026-03-09T09:12:49.587280Z",
+    "last_seen": "2026-03-09T09:12:49.587280Z",
+    "detections": 123,
+    "score": 58.93
+  },
+  {
+    "id": "cee64c85-7243-4218-bd69-41a35fe57326",
+    "type": "ip",
+    "value": "203.0.113.100",
+    "source": "virustotal",
+    "description": "Proxy for anonymized attack infrastructure",
+    "confidence": 0.8,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 89,
+      "country": "HK"
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 234,
+    "score": 77.72
+  },
+  {
+    "id": "fa827444-e239-45ff-899d-9ef860386c89",
+    "type": "domain",
+    "value": "image-hosting-exploit.net",
+    "source": "alienvault",
+    "description": "Exploit kit hosted on image hosting domain",
+    "confidence": 0.89,
+    "metadata": {
+      "detection_count": 345,
+      "seen_count": 123
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 345,
+    "score": 99.55
+  },
+  {
+    "id": "cd1b47b3-e8b7-46fa-ae45-1492e8b55dbf",
+    "type": "cve",
+    "value": "CVE-2024-4004",
+    "source": "virustotal",
+    "description": "Windows elevation of privilege vulnerability",
+    "confidence": 0.97,
+    "metadata": {
+      "detection_count": 756,
+      "seen_count": 389,
+      "cvss_score": 8.8
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 756,
+    "score": 100
+  },
+  {
+    "id": "6a427a02-5c25-4452-a5b4-b139ffeebb3e",
+    "type": "file",
+    "value": "system32_update.dll",
+    "source": "internal",
+    "description": "Malicious DLL masquerading as system update",
+    "confidence": 0.95,
+    "metadata": {
+      "detection_count": 567,
+      "seen_count": 234
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 567,
+    "score": 100
+  },
+  {
+    "id": "754d6747-798c-49dd-8aca-2d6c8686207a",
+    "type": "url",
+    "value": "https://credential-stealer.com/form.php",
+    "source": "internal",
+    "description": "Credential stealer form submission endpoint",
+    "confidence": 0.93,
+    "metadata": {
+      "detection_count": 456,
+      "seen_count": 178
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 456,
+    "score": 100
+  },
+  {
+    "id": "c7353a4d-93b4-477e-9625-3a48f9674aeb",
+    "type": "hash",
+    "value": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d5",
+    "source": "virustotal",
+    "description": "Trojan.Bancos credential stealer",
+    "confidence": 0.94,
+    "metadata": {
+      "detection_count": 678,
+      "seen_count": 312
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 678,
+    "score": 100
+  },
+  {
+    "id": "0e7ac150-cd91-4361-8cbf-66fd22de5a0e",
+    "type": "ip",
+    "value": "198.51.100.125",
+    "source": "abuseipdb",
+    "description": "SSH exploitation attempts detected",
+    "confidence": 0.75,
+    "metadata": {
+      "detection_count": 189,
+      "seen_count": 67,
+      "country": "IR"
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 189,
+    "score": 81.68
+  },
+  {
+    "id": "6b95e9d5-333f-4cee-9f70-ff88414741df",
+    "type": "domain",
+    "value": "webshell-hosting.net",
+    "source": "internal",
+    "description": "Web shell hosting infrastructure",
+    "confidence": 0.91,
+    "metadata": {
+      "detection_count": 423,
+      "seen_count": 167
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 423,
+    "score": 87.8
+  },
+  {
+    "id": "84a9c321-0876-4a38-b1f9-f6fa1b3d4b78",
+    "type": "email",
+    "value": "tax-refund@revenue.fake",
+    "source": "manual",
+    "description": "Tax refund phishing email",
+    "confidence": 0.83,
+    "metadata": {
+      "detection_count": 156,
+      "seen_count": 54
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 156,
+    "score": 73.6
+  },
+  {
+    "id": "90f15d35-73be-40e8-a34d-7aeefb2080de",
+    "type": "url",
+    "value": "http://ransomware-as-service.dark/payment",
+    "source": "internal",
+    "description": "RaaS payment processing endpoint",
+    "confidence": 0.96,
+    "metadata": {
+      "detection_count": 534,
+      "seen_count": 267
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 534,
+    "score": 100
+  },
+  {
+    "id": "ca5baba3-a988-4da7-a1a6-41116290ba85",
+    "type": "hash",
+    "value": "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e6",
+    "source": "virustotal",
+    "description": "Trojan.Necurs botnet malware",
+    "confidence": 0.92,
+    "metadata": {
+      "detection_count": 567,
+      "seen_count": 278
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 567,
+    "score": 100
+  },
+  {
+    "id": "4908f149-b00a-48df-9852-d8475052ad82",
+    "type": "ip",
+    "value": "192.0.2.150",
+    "source": "virustotal",
+    "description": "Open proxy used for attack staging",
+    "confidence": 0.77,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 78,
+      "country": "PK"
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 234,
+    "score": 75.37
+  },
+  {
+    "id": "54446149-5444-4ed6-b32a-52e1537e4c7c",
+    "type": "domain",
+    "value": "exploit-pack-distribution.cc",
+    "source": "alienvault",
+    "description": "Exploit pack distribution network",
+    "confidence": 0.94,
+    "metadata": {
+      "detection_count": 456,
+      "seen_count": 189
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 456,
+    "score": 100
+  },
+  {
+    "id": "80c08490-1ba5-45dd-a3ba-a257cdef8366",
+    "type": "cve",
+    "value": "CVE-2024-5005",
+    "source": "virustotal",
+    "description": "Browser zero-day remote code execution",
+    "confidence": 0.99,
+    "metadata": {
+      "detection_count": 923,
+      "seen_count": 567,
+      "cvss_score": 9.9
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 923,
+    "score": 100
+  },
+  {
+    "id": "f993cec9-4332-4b42-9749-adb7e8a66baf",
+    "type": "file",
+    "value": "chrome_plugin_update.crx",
+    "source": "internal",
+    "description": "Malicious Chrome extension masquerading as update",
+    "confidence": 0.9,
+    "metadata": {
+      "detection_count": 345,
+      "seen_count": 145
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 345,
+    "score": 96.0
+  },
+  {
+    "id": "547e6dd8-e937-4d7d-8b32-9914a9e520ec",
+    "type": "url",
+    "value": "https://bitcoin-mixer.net/tumble",
+    "source": "internal",
+    "description": "Bitcoin mixing service for money laundering",
+    "confidence": 0.88,
+    "metadata": {
+      "detection_count": 289,
+      "seen_count": 112
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 289,
+    "score": 97.63
+  },
+  {
+    "id": "aa3e9a88-bd5b-4348-9e78-3b0c5e1e6e02",
+    "type": "hash",
+    "value": "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f7",
+    "source": "virustotal",
+    "description": "Infostealer.ArechClient variant",
+    "confidence": 0.93,
+    "metadata": {
+      "detection_count": 456,
+      "seen_count": 201
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 456,
+    "score": 100
+  },
+  {
+    "id": "1a7b5605-962d-424c-836e-bf4fe20f4951",
+    "type": "email",
+    "value": "delivery-notification@fake-ups.com",
+    "source": "manual",
+    "description": "Fake delivery notification phishing",
+    "confidence": 0.86,
+    "metadata": {
+      "detection_count": 234,
+      "seen_count": 89
+    },
+    "first_seen": "2026-03-09T09:12:49.588288Z",
+    "last_seen": "2026-03-09T09:12:49.588288Z",
+    "detections": 234,
+    "score": 82.42
+  },
+  {
+    "id": "0ccd95fe-7be4-4d34-a9ff-51376c965548",
+    "type": "ip",
+    "value": "203.0.113.150",
+    "source": "abuseipdb",
+    "description": "Compromised IoT device in botnet",
+    "confidence": 0.82,
+    "metadata": {
+      "detection_count": 267,
+      "seen_count": 98,
+      "country": "BR"
+    },
+    "first_seen": "2026-03-09T09:12:49.589286Z",
+    "last_seen": "2026-03-09T09:12:49.589286Z",
+    "detections": 267,
+    "score": 100
+  },
+  {
+    "id": "600a0834-2ceb-4c50-ba50-06ebcba5af12",
+    "type": "domain",
+    "value": "click-fraud-network.net",
+    "source": "virustotal",
+    "description": "Click fraud botnet command server",
+    "confidence": 0.85,
+    "metadata": {
+      "detection_count": 367,
+      "seen_count": 134
+    },
+    "first_seen": "2026-03-09T09:12:49.589286Z",
+    "last_seen": "2026-03-09T09:12:49.589286Z",
+    "detections": 367,
+    "score": 100
+  },
+  {
+    "id": "6e26f67e-94b9-4a6d-be8b-8b9d681df7ee",
+    "type": "url",
+    "value": "http://survey-scam-redirect.net/offer",
+    "source": "internal",
+    "description": "Survey scam redirect page",
+    "confidence": 0.79,
+    "metadata": {
+      "detection_count": 156,
+      "seen_count": 62
+    },
+    "first_seen": "2026-03-09T09:12:49.589286Z",
+    "last_seen": "2026-03-09T09:12:49.589286Z",
+    "detections": 156,
+    "score": 78.67
+  },
+  {
+    "id": "20b4d327-f7c1-468c-8381-bb85406a6271",
+    "type": "hash",
+    "value": "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a2",
+    "source": "virustotal",
+    "description": "Trojan.ZusCrypt encryption malware",
+    "confidence": 0.97,
+    "metadata": {
+      "detection_count": 678,
+      "seen_count": 345
+    },
+    "first_seen": "2026-03-09T09:12:49.589286Z",
+    "last_seen": "2026-03-09T09:12:49.589286Z",
+    "detections": 678,
+    "score": 100
+  },
+  {
+    "id": "ef7a445b-4d7e-4e1b-b707-782545a28d07",
+    "type": "email",
+    "value": "noreply@amazon-security-alert.net",
+    "source": "manual",
+    "description": "Amazon account security phishing email",
+    "confidence": 0.87,
+    "metadata": {
+      "detection_count": 289,
+      "seen_count": 103
+    },
+    "first_seen": "2026-03-09T09:12:49.589286Z",
+    "last_seen": "2026-03-09T09:12:49.589286Z",
+    "detections": 289,
+    "score": 87.99
+  },
+  {
+    "id": "8dc3e12d-b5cf-439c-8401-0648d43d20b1",
+    "type": "ip",
+    "value": "198.51.100.200",
+    "source": "virustotal",
+    "description": "Spam botnet relay node",
+    "confidence": 0.73,
+    "metadata": {
+      "detection_count": 178,
+      "seen_count": 67,
+      "country": "NG"
+    },
+    "first_seen": "2026-03-09T09:12:49.589286Z",
+    "last_seen": "2026-03-09T09:12:49.589286Z",
+    "detections": 178,
+    "score": 86.39
+  },
+  {
+    "id": "2cac186e-530f-456b-bd64-7aa9c9f7b2d6",
+    "type": "domain",
+    "value": "fake-antivirus-scan.net",
+    "source": "alienvault",
+    "description": "Scareware fake antivirus scan site",
+    "confidence": 0.88,
+    "metadata": {
+      "detection_count": 345,
+      "seen_count": 128
+    },
+    "first_seen": "2026-03-09T09:12:49.589286Z",
+    "last_seen": "2026-03-09T09:12:49.589286Z",
+    "detections": 345,
+    "score": 85.4
+  },
+  {
+    "id": "3da369a5-6a95-4ef5-9ad9-79d818ac09c4",
+    "type": "cve",
+    "value": "CVE-2024-6006",
+    "source": "virustotal",
+    "description": "Adobe Reader arbitrary code execution",
+    "confidence": 0.96,
+    "metadata": {
+      "detection_count": 834,
+      "seen_count": 456,
+      "cvss_score": 9.6
+    },
+    "first_seen": "2026-03-09T09:12:49.589286Z",
+    "last_seen": "2026-03-09T09:12:49.589286Z",
+    "detections": 834,
+    "score": 100
+  },
+  {
+    "id": "fcb868cb-3c06-4e22-871c-112e4387fa34",
+    "type": "file",
+    "value": "document_macro.docm",
+    "source": "internal",
+    "description": "Word document with malicious macro",
+    "confidence": 0.92,
+    "metadata": {
+      "detection_count": 456,
+      "seen_count": 198
+    },
+    "first_seen": "2026-03-09T09:12:49.589286Z",
+    "last_seen": "2026-03-09T09:12:49.589286Z",
+    "detections": 456,
+    "score": 97.8
+  },
+  {
+    "id": "8cbe6957-d86e-493d-9ac1-21569a8a74b3",
+    "type": "url",
+    "value": "https://watering-hole-attack.org/news",
+    "source": "internal",
+    "description": "Watering hole attack website",
+    "confidence": 0.91,
+    "metadata": {
+      "detection_count": 389,
+      "seen_count": 167
+    },
+    "first_seen": "2026-03-09T09:12:49.589286Z",
+    "last_seen": "2026-03-09T09:12:49.589286Z",
+    "detections": 389,
+    "score": 100
+  },
+  {
+    "id": "4a6d1058-2b58-4234-bae9-12f7ec6d113f",
+    "type": "hash",
+    "value": "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b3",
+    "source": "virustotal",
+    "description": "Trojan.GenericKD malware",
+    "confidence": 0.88,
+    "metadata": {
+      "detection_count": 534,
+      "seen_count": 267
+    },
+    "first_seen": "2026-03-09T09:12:49.589286Z",
+    "last_seen": "2026-03-09T09:12:49.589286Z",
+    "detections": 534,
     "score": 100
   }
 ]

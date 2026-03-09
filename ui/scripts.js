@@ -637,21 +637,21 @@ function getThreatLevelClass(score) {
 async function generateReport() {
   try {
     const analysisRes = await apiCall("POST", "/analyze");
-    const iocsRes = await apiCall("GET", "/iocs?limit=1000");
+    const iocsRes = await apiCall("GET", "/iocs?limit=100");
     
-    // Generate daily summary
+    // Generate daily summary using analysis data for accuracy
     const summary = `
       <strong>Date:</strong> ${new Date().toLocaleDateString()}<br>
-      <strong>Total IOCs:</strong> ${iocsRes.length}<br>
+      <strong>Total IOCs:</strong> ${analysisRes.total_iocs}<br>
       <strong>Critical Threats:</strong> ${analysisRes.critical_threats}<br>
       <strong>High Threats:</strong> ${analysisRes.high_threats}<br>
-      <strong>Average Score:</strong> ${(iocsRes.reduce((sum, ioc) => sum + ioc.score, 0) / iocsRes.length).toFixed(2)}<br>
+      <strong>Average Score:</strong> ${analysisRes.average_score.toFixed(2)}<br>
       <strong>Most Common Type:</strong> ${getMostCommonType(iocsRes)}<br>
     `;
     
     document.getElementById("dailySummary").innerHTML = summary;
     
-    // Generate top threats list
+    // Generate top threats list from fetched IOCs
     const topIOCs = iocsRes.sort((a, b) => b.score - a.score).slice(0, 10);
     const threatsHTML = topIOCs.map(ioc => `
       <li>
@@ -661,12 +661,12 @@ async function generateReport() {
     `).join("");
     document.getElementById("threatsListReport").innerHTML = threatsHTML;
     
-    // Generate statistics
+    // Generate statistics using analysis data for full accuracy
     const statsHTML = `
-      <div class="stat-item"><strong>Total IOCs:</strong> ${iocsRes.length}</div>
-      <div class="stat-item"><strong>Critical:</strong> ${iocsRes.filter(i => i.score >= 90).length}</div>
-      <div class="stat-item"><strong>High:</strong> ${iocsRes.filter(i => i.score >= 70 && i.score < 90).length}</div>
-      <div class="stat-item"><strong>Medium:</strong> ${iocsRes.filter(i => i.score >= 50 && i.score < 70).length}</div>
+      <div class="stat-item"><strong>Total IOCs:</strong> ${analysisRes.total_iocs}</div>
+      <div class="stat-item"><strong>Critical:</strong> ${analysisRes.critical_threats}</div>
+      <div class="stat-item"><strong>High:</strong> ${analysisRes.high_threats}</div>
+      <div class="stat-item"><strong>Medium:</strong> ${analysisRes.medium_threats}</div>
     `;
     document.getElementById("statsGrid").innerHTML = statsHTML;
   } catch (error) {
